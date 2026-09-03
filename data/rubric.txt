@@ -1,0 +1,9 @@
+﻿Operations Staff application screen
+A candidate progresses only if they meet both criteria. If the evidence for a criterion is unclear, treat it as not met.
+1. Safety motivation
+The candidate is motivated by the large-scale stakes of advanced AI: whether increasingly capable systems remain aligned and controlled, and what their development could mean for humanity or the world. Concern limited to present-day harms such as deepfakes, bias, misinformation, privacy, or job displacement is not enough.
+2. Overall impressiveness
+To pass, the candidate must:
+* have done impressive work relevant to the role; and
+* either show high context on our work—for example, through a genuinely good answer about what changed their mind on AI risk—or have a specific strength in finance, People, recruiting, research operations, strategy, legal operations, IT, or office management.
+Taken together, the evidence should make it plausible that the candidate is in a very high percentile of ambition × conscientiousness × intelligence. Look for personal ownership, difficult decisions, scale, results, prioritisation, and follow-through. Prestige, broad responsibilities, or polished language without evidence are not enough.
