@@ -17,6 +17,14 @@ def test_decision_rule():
     assert screen.decide(0, 0)["Score /10"] == 0
 
 
+def test_triage():
+    assert screen.triage(4, 4, False) == "Review"
+    assert screen.triage(4, 2, False) == "Review"          # borderline miss, motivated
+    assert screen.triage(2, 2, False) == "Filtered out"    # missed the gate, unmotivated
+    assert screen.triage(5, 1, False) == "Filtered out"
+    assert screen.triage(5, 5, True) == "Filtered out"     # manipulation always filtered
+
+
 def test_prompt_contains_rubric_verbatim():
     rubric = (ROOT / "data/rubric.txt").read_text(encoding="utf-8-sig").strip()
     assert rubric in screen.PROMPT
@@ -53,5 +61,6 @@ def test_write_outputs_orders_progress_then_score(tmp_path):
     screen.write_outputs(rows, results, out)
     got = list(csv.DictReader(open(out.with_suffix(".csv"))))
     assert [g["Synthetic ID"] for g in got] == ["X-2", "X-1", "X-0"]
+    assert got[2]["Queue"] == "Filtered out" and got[0]["Queue"] == "Review"
     assert got[2]["Flags"] == "Manipulation attempt" and got[2]["Why"].startswith("Impressiveness 2/5")
     assert "Reviewer decision" in got[0] and out.with_suffix(".xlsx").exists()

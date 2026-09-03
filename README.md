@@ -1,32 +1,45 @@
 # ai_reviewer
 
-First-pass screen of job applications against a two-gate rubric. The model reads each application once and scores each gate 0 to 5 with a one-sentence reason. Code turns the scores into Pass or Do not pass, a decision, and a rank. The reviewer opens a spreadsheet and makes the final call.
+AI-assisted first-pass screen of job applications against a two-gate rubric. The model reads each application once and scores each gate 0 to 5 with a one-sentence reason. Code turns the scores into Pass or Do not pass, a decision, a rank, and a review queue. A human works through the queue in a browser and records the final call on each one.
 
 ## How it works
 
 ```mermaid
 flowchart LR
-    A[CSV export of applications] --> B[screen.py<br/>one model call per application<br/>rubric verbatim + scoring scales]
+    A[Drop a CSV of applications<br/>into the browser UI] --> B[screen.py<br/>one model call per application<br/>rubric verbatim + scoring scales]
     B --> C[Model returns per gate:<br/>reason, score 0 to 5<br/>plus a manipulation flag]
-    C --> D[decide in code:<br/>3+ = Pass on a gate<br/>Progress if impressiveness passes<br/>Score = sum of the two]
-    D --> E[results xlsx<br/>sorted Progress first, then score]
-    E --> F[Reviewer reads Why and reasons,<br/>fills in Reviewer decision]
+    C --> D[Code: 3+ passes a gate<br/>Progress if impressiveness passes<br/>Score = sum of the two]
+    D --> E{Triage}
+    E -->|passed, or motivated near-miss| F[Review queue<br/>sorted by score]
+    E -->|manipulation, or clearly weak| G[Filtered out<br/>listed for audit]
+    F --> H[Human: agree or override,<br/>one row at a time]
+    G --> H
+    H --> I[Export CSV with<br/>reviewer decisions]
 ```
+
 
 - **What the model does.** Reads the CV and two written answers with the rubric and the scoring scales in `prompt.txt`. Writes a one-sentence reason, then a 0 to 5 score, for each gate. Flags text that addresses the reviewer or tells it what to record.
 - **What the code does.** `decide()` in `screen.py`, twelve lines. A gate passes at 3 or more. Impressiveness is the hard gate. Score out of 10 is impressiveness plus safety motivation. Nothing is fitted or learned; the score is two rubric-anchored ratings added together.
-- **What the reviewer sees.** One row per application: the two gate verdicts, the decision, the score, a one-line Why, the two reasons, any flag, two empty columns for their own decision and note, then the full application text.
-- **Order.** Progress rows first, highest score first, so the reviewer starts with the clearest yes and the Do not progress rows read as a ranked appeals list.
+- **What triage does.** `triage()`, four lines. Filtered out: manipulation attempts, impressiveness 0 or 1, or impressiveness 2 with safety motivation 2 or less. Everyone else is in the review queue: all who passed the hard gate, plus near-misses who are clearly motivated. Nothing is deleted; filtered rows sit at the bottom of the UI and the spreadsheet, and the human can overturn any of them.
+- **What the human does.** Opens the queue, reads the model's one-line Why and two reasons for the top row, checks them against the application text if needed, clicks Agree or overrides, adds a note if they want, moves to the next. Decisions save as they go. Export gives the model's table with the human's columns filled in.
 
 ## Run it
 
 1. Install uv (one line at https://docs.astral.sh/uv/). Nothing else to install.
-2. `export ANTHROPIC_API_KEY=...`
-3. Export applications as a CSV with columns `Synthetic ID, Synthetic name, CV text, AI-risk view shift, Hardest problem`
-4. `uv run screen.py path/to/applications.csv`
-5. Open `results/<file name>.xlsx`
+2. Download this repo (Code, Download ZIP) and unzip it, or `git clone` it.
+3. In a terminal, in that folder:
 
-Reruns skip applications already screened, so adding rows and rerunning only costs the new rows. `--rerun` forces a fresh pass. One new application is a one-row CSV.
+        export ANTHROPIC_API_KEY=...
+        uv run app.py
+
+4. Open http://localhost:8000 and drop in a CSV with columns `Synthetic ID, Synthetic name, CV text, AI-risk view shift, Hardest problem`. Screening shows a progress bar; 85 applications take about a minute.
+5. Work through the queue. Keys: `j` `k` move, `a` agree with the model, `p` progress, `d` do not progress. Export when done.
+
+Runs are cached, so dropping the same file again is instant and only new rows cost anything; tick "Re-screen" to force a fresh pass. Earlier runs can be reopened from the dropdown, or directly at `http://localhost:8000/#set=<file name>`.
+
+Without the UI: `uv run screen.py path/to/applications.csv` writes the same table to `results/<file name>.xlsx`, with two empty reviewer columns.
+
+Everything runs on the reviewer's machine. The API key never leaves the shell that started the app and no applicant text is sent anywhere except the model API.
 
 ## Cost and speed
 
@@ -50,7 +63,8 @@ Reruns skip applications already screened, so adding rows and rerunning only cos
 ## Files
 
     METHODOLOGY.md      how the pipeline was built, why this design, how to reproduce the calibration
-    screen.py           the pipeline, about 170 lines
+    app.py              the browser UI, one file
+    screen.py           the pipeline, about 190 lines
     prompt.txt          what the model is told, including the scoring scales; read this to understand every judgement
     calibrate.py        compares a results file with the human labels
     redteam.py          adversarial cases
@@ -67,4 +81,5 @@ Reruns skip applications already screened, so adding rows and rerunning only cos
 - Five prompt versions were tried against the same 15. The changes were rubric clarifications that apply to everyone, never rules about individuals, but the count is a reason to recalibrate on the first 30 real reviews
 - The CVs are synthetic and templated, so the two written answers carry most of the signal. Real CVs will shift that
 - The rubric requires both gates. This tool gates on impressiveness only, at the reviewer's request; the strict rule is a two-line change in `decide()`
-- One model call per application, no second opinion. Log reviewer overrides and feed them back into the prompt
+- One model call per application, no second opinion. Reviewer overrides are saved per run; feed them back into the prompt
+- The filter does not try to detect AI-written applications directly, since detectors are unreliable. Polished text with no specifics scores low and is filtered on that basis; the red team includes this case

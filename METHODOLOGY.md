@@ -18,6 +18,7 @@ How the pipeline was built and how to check it yourself. About a day of work, ro
 6. **Stop at the agreement target, then test stability.** Target: at least 90% on the overall decision. Final prompt (v5): both gates 15/15; overall decision 15/15 under the rubric's both-gates rule and 14/15 under the tool's impressiveness-only rule, where the one gap is structural (see the log). Two identical runs produced no verdict changes.
 7. **Red team.** Thirteen cases in `redteam.py`: tampered copies of a strong and a weak real application, plus invented junior, buzzword-only, strong and injection-only applications. 11 of 11 checks pass.
 8. **Run the 85.** 33 progress, 52 do not progress, $2.05.
+9. **Build the human step.** A one-file browser UI (`app.py`): drop a CSV, watch the progress bar, then work a queue one row at a time with agree or override and a note. Triage in code decides who is in the queue (everyone who passed the gate plus motivated near-misses) and who is filtered out but still listed (manipulation attempts and clearly weak applications). On the 85: 65 in the queue, 20 filtered out.
 
 ## What each prompt version changed
 

@@ -1,5 +1,5 @@
-Synthetic ID,Synthetic name,Safety motivation,Overall impressiveness,Overall decision,Score /10,Why,Impressiveness /5,Impressiveness reason,Safety /5,Safety reason,Flags,Reviewer decision,Reviewer note,CV text,AI-risk view shift,Hardest problem
-OPS-SYN-040,Clara Bell,Pass,Pass,Progress,8,Both gates met,4,"Manager-level ownership with concrete results (50% facilities cost cut, £473k and £391k deferred, 157-desk move) and clear office management/procurement strength.",4,"Names a mechanism—widely deployed model propagating a bad objective before institutions coordinate—plus an operational implication for decision packs, though phrasing is repetitive and vague.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+Synthetic ID,Synthetic name,Safety motivation,Overall impressiveness,Overall decision,Queue,Score /10,Why,Impressiveness /5,Impressiveness reason,Safety /5,Safety reason,Flags,Reviewer decision,Reviewer note,CV text,AI-risk view shift,Hardest problem
+OPS-SYN-040,Clara Bell,Pass,Pass,Progress,Review,8,Both gates met,4,"Manager-level ownership with concrete results (50% facilities cost cut, £473k and £391k deferred, 157-desk move) and clear office management/procurement strength.",4,"Names a mechanism—widely deployed model propagating a bad objective before institutions coordinate—plus an operational implication for decision packs, though phrasing is repetitive and vague.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Clara Bell
 
 RELEVANT EXPERIENCE
@@ -32,7 +32,7 @@ The operating response I would help build centres on this requirement: decision 
 For the operating plan at Centre for Effective Altruism: Rather than collect another status update, I exposed capacity and downside explicitly. I then built staged options with capacity triggers and priced the cost of waiting.
 
 At Centre for Effective Altruism, the first phase met current demand and deferred £391k of irreversible construction. The lesson I retained was to preserve rollback until the evidence, not the calendar, justified commitment."
-OPS-SYN-085,Kian Yarrow,Pass,Pass,Progress,8,Both gates met,4,"Senior research-ops lead with owned outcomes (evidence register cutting check time 54%, 127-participant programme) and a hardest-problem story with concrete results and verification.",4,"Cites a tabletop handoff failure and 'human intent could stop governing system behaviour', with operational implication of pre-agreed decision authority, though phrasing is repetitive and thin.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-085,Kian Yarrow,Pass,Pass,Progress,Review,8,Both gates met,4,"Senior research-ops lead with owned outcomes (evidence register cutting check time 54%, 127-participant programme) and a hardest-problem story with concrete results and verification.",4,"Cites a tabletop handoff failure and 'human intent could stop governing system behaviour', with operational implication of pre-agreed decision authority, though phrasing is repetitive and thin.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Kian Yarrow
 
 EXPERIENCE
@@ -70,7 +70,7 @@ This changes my practical priorities toward an executable control: pre-agreed ev
 For the operating plan at Effective Ventures: I made each exception visible with an owner and expiry date. I then observed real cases, split the standard route from exceptions, and rewrote the guide around decisions.
 
 At Effective Ventures, completion time fell by 22% and the sampled error rate dropped in the following month. I sampled 28 later cases and found the new handoff was being used as designed."
-OPS-SYN-027,Rowan Keene,Pass,Pass,Progress,7,Both gates met,3,"Manager-level People Ops with HRIS migration of 1600 records and comp redesign; hardest-problem story shows ownership, prioritisation by reversibility, and 20% under-budget launch.",4,"Cites a specific mechanism—shutdown failure via dependent workflow restart, rollback as system property—tied to control, with operational implication of dependency-tracing deployment reviews.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-027,Rowan Keene,Pass,Pass,Progress,Review,7,Both gates met,3,"Manager-level People Ops with HRIS migration of 1600 records and comp redesign; hardest-problem story shows ownership, prioritisation by reversibility, and 20% under-budget launch.",4,"Cites a specific mechanism—shutdown failure via dependent workflow restart, rollback as system property—tied to control, with operational implication of dependency-tracing deployment reviews.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Rowan Keene
 
 EMPLOYMENT
@@ -103,7 +103,7 @@ I would make the update concrete through this principle: deployment reviews shou
 For the operating plan at HubSpot: I gave each stakeholder the same evidence pack and documented dissent. I then ranked commitments by reversibility, protected the critical path, and wrote three choices for the sponsor.
 
 At HubSpot, the launch retained its core service while spend finished 20% below the original plan. The retrospective changed one recurring people control rather than merely recording lessons."
-OPS-SYN-037,Rafael Farrow,Pass,Pass,Progress,7,Both gates met,3,"Chief of Staff story owns runway forecast reconciliation with £754k spend deferred, though narrative is formulaic and results modest; strength in strategy/finance operations.",4,"Points to compute/capital commitments locking scaling paths and 'local mistakes becoming system-wide before a pause', a specific mechanism with an operational implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-037,Rafael Farrow,Pass,Pass,Progress,Review,7,Both gates met,3,"Chief of Staff story owns runway forecast reconciliation with £754k spend deferred, though narrative is formulaic and results modest; strength in strategy/finance operations.",4,"Points to compute/capital commitments locking scaling paths and 'local mistakes becoming system-wide before a pause', a specific mechanism with an operational implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Rafael Farrow
 
 EXPERIENCE
@@ -136,7 +136,7 @@ I would build the control around this lesson: finance and programme teams should
 For the operating plan at National Audit Office: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then reconciled commitments line by line and made scenario assumptions visible to budget owners.
 
 At National Audit Office, leadership delayed £754k of discretionary spend before cash became constrained. A 9-week review caught one workaround, which I corrected before closing the project."
-OPS-SYN-052,Rowan North,Pass,Pass,Progress,7,Both gates met,3,"Head of Talent with recruiting strength and metrics, but hardest-problem story is vague boilerplate; owned outcome with 33% time cut meets bar without senior specificity.",4,"Cites evaluation-awareness undermining static test suites, ties it to control and unabsorbable scale, and derives operational steps like test rotation and pause rehearsal.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-052,Rowan North,Pass,Pass,Progress,Review,7,Both gates met,3,"Head of Talent with recruiting strength and metrics, but hardest-problem story is vague boilerplate; owned outcome with 33% time cut meets bar without senior specificity.",4,"Cites evaluation-awareness undermining static test suites, ties it to control and unabsorbable scale, and derives operational steps like test rotation and pause rehearsal.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Rowan North
 
 RELEVANT EXPERIENCE
@@ -174,7 +174,7 @@ The most robust next step follows directly: rotating tests, restricted informati
 For the operating plan at Chatham House: I gave each stakeholder the same evidence pack and documented dissent. I then observed real cases, split the standard route from exceptions, and rewrote the guide around decisions.
 
 At Chatham House, completion time fell by 33% and the sampled error rate dropped in the following month. The retrospective changed one recurring recruiting control rather than merely recording lessons."
-OPS-SYN-053,Elise Vale,Pass,Pass,Progress,7,Both gates met,3,"Programme Manager owned portfolio replanning and supplier failure recovery with concrete results (4-day restoration, 54% check-time reduction) in research operations.",4,"Names concentration of one opaque model layer across critical services turning a single advanced-system failure systemic, plus procurement/fallback implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-053,Elise Vale,Pass,Pass,Progress,Review,7,Both gates met,3,"Programme Manager owned portfolio replanning and supplier failure recovery with concrete results (4-day restoration, 54% check-time reduction) in research operations.",4,"Names concentration of one opaque model layer across critical services turning a single advanced-system failure systemic, plus procurement/fallback implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Elise Vale
 
 EXPERIENCE
@@ -207,7 +207,7 @@ I would make the update concrete through this principle: procurement should trac
 For the operating plan at Crisis: I interviewed the people closest to the failure and tested the smallest viable sequence. I then separated work that could be replaced from work tied to the supplier, then negotiated a controlled handoff.
 
 At Crisis, the critical service resumed in 4 days and the replacement stayed within the contingency. The approach was reused in a second research operations cycle with only two documented changes."
-OPS-SYN-062,Rafael Ives,Pass,Pass,Progress,7,Both gates met,3,"Vendor consolidation story shows ownership with 8 tools retired and £137k saved, but CV bullets are repetitive routine HRIS maintenance and drafting for others' review.",4,"Cites goal misgeneralisation and off-distribution goal persistence, tying it to inadequate review habits and safety cases stating untested behaviour.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-062,Rafael Ives,Pass,Pass,Progress,Review,7,Both gates met,3,"Vendor consolidation story shows ownership with 8 tools retired and £137k saved, but CV bullets are repetitive routine HRIS maintenance and drafting for others' review.",4,"Cites goal misgeneralisation and off-distribution goal persistence, tying it to inadequate review habits and safety cases stating untested behaviour.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Rafael Ives
 
 CAREER HISTORY
@@ -241,7 +241,7 @@ That makes me favour a system with this property: safety cases should state wher
 For the operating plan at Institute for Fiscal Studies: I recorded questions that had been sitting in email. With those visible, I mapped actual use, switching cost and contractual deadlines, then negotiated short extensions where evidence was missing.
 
 At Institute for Fiscal Studies, the organisation retired 8 tools and avoided £137k in annual spend. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-064,Owen Yarrow,Pass,Pass,Progress,7,Both gates met,3,"Programme-manager story shows ownership with concrete outcomes (66 completions, refunds under contingency) plus research-operations strength, but scope is modest and detail thin.",4,"Names evaluation contamination as a mechanism, ties it to human intent ceasing to govern behaviour, and draws an operational control (blinded review, external replication).",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-064,Owen Yarrow,Pass,Pass,Progress,Review,7,Both gates met,3,"Programme-manager story shows ownership with concrete outcomes (66 completions, refunds under contingency) plus research-operations strength, but scope is modest and detail thin.",4,"Names evaluation contamination as a mechanism, ties it to human intent ceasing to govern behaviour, and draws an operational control (blinded review, external replication).",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Owen Yarrow
 
 RELEVANT EXPERIENCE
@@ -274,7 +274,7 @@ This changes my practical priorities toward an executable control: versioned dat
 For the operating plan at Monzo: I gave each stakeholder the same evidence pack and documented dissent. I then identified the sessions with no substitute, regrouped content, and offered participants clear choices.
 
 At Monzo, 66 learners completed the core programme and refunds stayed below the contingency. The retrospective changed one recurring research operations control rather than merely recording lessons."
-OPS-SYN-067,Maya Sayer,Pass,Pass,Progress,7,Both gates met,3,"Office/events manager with owned vendor consolidation saving £736k, retendering cutting costs 46%, plus office management strength area and concrete results.",4,"Cites incompatible cross-lab incident severity labels and bad-objective propagation before institutions coordinate, with operational implication of shared taxonomies and reporting fields.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-067,Maya Sayer,Pass,Pass,Progress,Review,7,Both gates met,3,"Office/events manager with owned vendor consolidation saving £736k, retendering cutting costs 46%, plus office management strength area and concrete results.",4,"Cites incompatible cross-lab incident severity labels and bad-objective propagation before institutions coordinate, with operational implication of shared taxonomies and reporting fields.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Maya Sayer
 
 EMPLOYMENT
@@ -302,7 +302,7 @@ The operating response I would help build centres on this requirement: shared ta
 For the operating plan at Thought Machine: I made each exception visible with an owner and expiry date. I then mapped actual use, switching cost and contractual deadlines, then negotiated short extensions where evidence was missing.
 
 At Thought Machine, the organisation retired 1 tools and avoided £736k in annual spend. I sampled 28 later cases and found the new handoff was being used as designed."
-OPS-SYN-070,Samir Oram,Pass,Pass,Progress,7,Both gates met,3,"Senior title but CV bullets are generic record-keeping and scheduling; hardest-problem story shows ownership of grant reconciliation with £17.5m figure, though thin on decisions and scale.",4,"Cites specific insider-plus-weak-approval-gate scenario, ties it to divergence between capability and effective human control, and draws operational implication about shared threat models and artefacts.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-070,Samir Oram,Pass,Pass,Progress,Review,7,Both gates met,3,"Senior title but CV bullets are generic record-keeping and scheduling; hardest-problem story shows ownership of grant reconciliation with £17.5m figure, though thin on decisions and scale.",4,"Cites specific insider-plus-weak-approval-gate scenario, ties it to divergence between capability and effective human control, and draws operational implication about shared threat models and artefacts.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Samir Oram
 
 CAREER HISTORY
@@ -336,7 +336,7 @@ In practice I would ask for evidence of the following: security, personnel and m
 For the operating plan at Darktrace: I used a simple issue log to keep exceptions from disappearing. I then reconciled each award to a named deliverable and created an exceptions review.
 
 At Darktrace, the next trustee pack explained £17.5m of restricted funds without manual reconstruction. I shared the sequence with a colleague and asked them to test whether it was understandable."
-OPS-SYN-082,Leila Bell,Pass,Pass,Progress,7,Both gates met,3,"Chief of Staff with owned relocation delivered on schedule with defect counts, plus decision-log/strategy ops strength, though CV bullets are formulaic and scale modest.",4,"Cites a model-generated plan with a containment-defeating step and draws an operational implication (domain review of high-risk plans), tied to loss-of-control stakes.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-082,Leila Bell,Pass,Pass,Progress,Review,7,Both gates met,3,"Chief of Staff with owned relocation delivered on schedule with defect counts, plus decision-log/strategy ops strength, though CV bullets are formulaic and scale modest.",4,"Cites a model-generated plan with a containment-defeating step and draws an operational implication (domain review of high-risk plans), tied to loss-of-control stakes.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Leila Bell
 
 CAREER HISTORY
@@ -369,7 +369,7 @@ That makes me favour a system with this property: high-risk plans need domain re
 For the operating plan at Accenture: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then walked the space, built one dependency board, and tested access and equipment with representative users.
 
 At Accenture, the team opened on schedule and only 7 low-priority defects remained after the first day. A 8-week review caught one workaround, which I corrected before closing the project."
-OPS-SYN-087,Rafael Lorne,Pass,Pass,Progress,7,Both gates met,3,"Senior research ops lead with portfolio replanning and a hardest-problem story showing ownership, ranking by reversibility, and 60% spend reduction with core launch preserved.",4,"Names widely deployed system propagating a bad objective before institutions coordinate, plus operational implication (distributions, dissent, escalation criteria), though repetitive and thin on genuine mind-change.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-087,Rafael Lorne,Pass,Pass,Progress,Review,7,Both gates met,3,"Senior research ops lead with portfolio replanning and a hardest-problem story showing ownership, ranking by reversibility, and 60% spend reduction with core launch preserved.",4,"Names widely deployed system propagating a bad objective before institutions coordinate, plus operational implication (distributions, dissent, escalation criteria), though repetitive and thin on genuine mind-change.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Rafael Lorne
 
 EMPLOYMENT
@@ -407,7 +407,7 @@ The operating response I would help build centres on this requirement: decision 
 For the operating plan at Deliveroo: I reduced the plan to its binding constraint and named the decision owner. I then ranked commitments by reversibility, protected the critical path, and wrote three choices for the sponsor.
 
 At Deliveroo, the launch retained its core service while spend finished 60% below the original plan. I left Deliveroo with a tested fallback and an owner for the next evidence review."
-OPS-SYN-093,Luca Dene,Pass,Pass,Progress,7,Both gates met,3,"Manager-level IT ownership with SSO rollout, incident containment and licence savings; hardest-problem story shows personal ownership but modest scale (12 permissions).",4,"Cites agentic tool-use in unforeseen sequence causing divergence between capability and effective human control, plus operational implication of combination-aware controls and rate limits.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-093,Luca Dene,Pass,Pass,Progress,Review,7,Both gates met,3,"Manager-level IT ownership with SSO rollout, incident containment and licence savings; hardest-problem story shows personal ownership but modest scale (12 permissions).",4,"Cites agentic tool-use in unforeseen sequence causing divergence between capability and effective human control, plus operational implication of combination-aware controls and rate limits.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Luca Dene
 
 EXPERIENCE
@@ -441,7 +441,7 @@ In practice I would ask for evidence of the following: controls should reason ab
 For the operating plan at JPMorgan Chase: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then created a role map, asked system owners to justify exceptions, and tested removal on low-risk accounts first.
 
 At JPMorgan Chase, 12 stale permissions were removed without interrupting critical work. A 9-week review caught one workaround, which I corrected before closing the project."
-OPS-SYN-024,Joel Lorne,Pass,Pass,Progress,6,Both gates met,3,"Senior titles and an owned migration story with concrete numbers (494 records, parallel period, authorisation rules) plus strategy/research-ops strength, though phrasing is formulaic and repetitive.",3,"Cites autonomous computer-use crossing from advice to action as mechanism and draws an operational implication (approval gates, audit trails), but doesn't tie clearly to catastrophic loss of control.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-024,Joel Lorne,Pass,Pass,Progress,Review,6,Both gates met,3,"Senior titles and an owned migration story with concrete numbers (494 records, parallel period, authorisation rules) plus strategy/research-ops strength, though phrasing is formulaic and repetitive.",3,"Cites autonomous computer-use crossing from advice to action as mechanism and draws an operational implication (approval gates, audit trails), but doesn't tie clearly to catastrophic loss of control.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Joel Lorne
 
 RELEVANT EXPERIENCE
@@ -479,7 +479,7 @@ A useful chief of staff contribution would implement the following: high-impact 
 For the operating plan at The Access Project: I assembled one authoritative register for dates, evidence and owners. With that in place, I defined authoritative fields, sampled conflicts with users, and ran a reversible parallel period.
 
 At The Access Project, 494 records moved with 0 unresolved exceptions documented for follow-up. The operating guide separated normal cases from exceptions and named who could authorise each."
-OPS-SYN-061,Sophie Bell,Pass,Pass,Progress,6,Both gates met,3,"Finance Manager with named finance strength and concrete numbers, but hardest-problem story is thin, formulaic and boilerplate-laden, showing limited genuine ownership detail.",3,"Cites a model adapting strategy after failed attempts and iterative autonomy escalating risk, plus an operational implication of aggregate behaviour monitoring, though repetitive and vague.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-061,Sophie Bell,Pass,Pass,Progress,Review,6,Both gates met,3,"Finance Manager with named finance strength and concrete numbers, but hardest-problem story is thin, formulaic and boilerplate-laden, showing limited genuine ownership detail.",3,"Cites a model adapting strategy after failed attempts and iterative autonomy escalating risk, plus an operational implication of aggregate behaviour monitoring, though repetitive and vague.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Sophie Bell
 
 EXPERIENCE
@@ -512,7 +512,7 @@ The corresponding programme decision is to fund one durable capability: monitori
 For the operating plan at Wise: I gave each stakeholder the same evidence pack and documented dissent. I then sampled scorecards, found an unstated criterion, and ran calibration against real anonymised examples.
 
 At Wise, late reversals fell from 12 to 4 across the next two searches. The retrospective changed one recurring finance control rather than merely recording lessons."
-OPS-SYN-032,Leila Vale,Do not pass,Pass,Progress,5,"Impressiveness met; safety motivation 1/5, below the bar of 3",4,"Head of People with owned HRIS migration, comp redesign, and a metric-lineage story with concrete outcomes, but no high context; named People strength.",1,Candidate explicitly limits concern to present-day misinformation and states reasoning does not depend on loss-of-control futures.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-032,Leila Vale,Do not pass,Pass,Progress,Review,5,"Impressiveness met; safety motivation 1/5, below the bar of 3",4,"Head of People with owned HRIS migration, comp redesign, and a metric-lineage story with concrete outcomes, but no high context; named People strength.",1,Candidate explicitly limits concern to present-day misinformation and states reasoning does not depend on loss-of-control futures.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Leila Vale
 
 RELEVANT EXPERIENCE
@@ -548,7 +548,7 @@ I came away convinced that commercial pressure rewards speed over verification; 
 For the operating plan at Cabinet Office: I gave each stakeholder the same evidence pack and documented dissent. I then documented lineage, rebuilt the measure from raw events, and removed unsupported historical comparisons.
 
 At Cabinet Office, the corrected view changed the priority of 5 projects and survived an independent check. The retrospective changed one recurring people control rather than merely recording lessons."
-OPS-SYN-033,Jonah Calder,Do not pass,Pass,Progress,5,"Impressiveness met; safety motivation 1/5, below the bar of 3",4,"Senior finance director with owned end-to-end contract triage, concrete metrics (19 to 8 days), and finance strength area.",1,Candidate explicitly frames update as present-day charity procurement capacity gaps and states it is not toward humanity-level catastrophe.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-033,Jonah Calder,Do not pass,Pass,Progress,Review,5,"Impressiveness met; safety motivation 1/5, below the bar of 3",4,"Senior finance director with owned end-to-end contract triage, concrete metrics (19 to 8 days), and finance strength area.",1,Candidate explicitly frames update as present-day charity procurement capacity gaps and states it is not toward humanity-level catastrophe.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Jonah Calder
 
 EXPERIENCE
@@ -584,7 +584,7 @@ My concern is now organised around one finding: capacity gaps can push risk onto
 For the operating plan at National Audit Office: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then triaged by exposure and reversibility, introduced approved clauses, and kept a visible exception route.
 
 At National Audit Office, median turnaround fell from 19 to 8 days while counsel focused on the highest-risk matters. A 8-week review caught one workaround, which I corrected before closing the project."
-OPS-SYN-091,Dev Oram,Do not pass,Pass,Progress,5,"Impressiveness met; safety motivation 1/5, below the bar of 3",4,"Head of IT Operations owned a security incident end to end with containment sequencing, 2-hour restoration and follow-up correction, plus IT strength area.",1,Candidate explicitly says they have not updated on catastrophic risk; concern limited to laundered evidence and analytic misuse.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-091,Dev Oram,Do not pass,Pass,Progress,Review,5,"Impressiveness met; safety motivation 1/5, below the bar of 3",4,"Head of IT Operations owned a security incident end to end with containment sequencing, 2-hour restoration and follow-up correction, plus IT strength area.",1,Candidate explicitly says they have not updated on catastrophic risk; concern limited to laundered evidence and analytic misuse.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Dev Oram
 
 EMPLOYMENT
@@ -620,7 +620,7 @@ I see a stronger case that plausible outputs can launder weak evidence, alongsid
 For the operating plan at National Audit Office: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then preserved available evidence, narrowed exposure by time and privilege, and sequenced containment before restoration.
 
 At National Audit Office, critical access was restored in 2 hours and the post-incident actions were independently checked. A 5-week review caught one workaround, which I corrected before closing the project."
-OPS-SYN-098,Hana North,Do not pass,Pass,Progress,5,"Impressiveness met; safety motivation 1/5, below the bar of 3",4,"Senior People Director with owned HRIS migrations and a vendor rationalisation retiring 8 tools saving £296k, plus named People strength; no high context needed.",1,"Candidate explicitly discounts existential danger, focusing on submission screening costs and identity/rate controls—present-day governance only.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-098,Hana North,Do not pass,Pass,Progress,Review,5,"Impressiveness met; safety motivation 1/5, below the bar of 3",4,"Senior People Director with owned HRIS migrations and a vendor rationalisation retiring 8 tools saving £296k, plus named People strength; no high context needed.",1,"Candidate explicitly discounts existential danger, focusing on submission screening costs and identity/rate controls—present-day governance only.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Hana North
 
 CAREER HISTORY
@@ -656,7 +656,7 @@ My update is that AI shifts screening costs onto recipients. I would therefore e
 For the operating plan at Institute for Fiscal Studies: I interviewed the people closest to the failure and tested the smallest viable sequence. I then mapped actual use, switching cost and contractual deadlines, then negotiated short extensions where evidence was missing.
 
 At Institute for Fiscal Studies, the organisation retired 8 tools and avoided £296k in annual spend. The approach was reused in a second people cycle with only two documented changes."
-OPS-SYN-054,Micah Calder,Do not pass,Pass,Progress,5,"Impressiveness met; safety motivation 2/5, below the bar of 3",3,"Programme manager with concrete numbers (deferred £804k, staged options) and research ops strength, but hardest-problem story is thin and CV boilerplate-repetitive.",2,Abstract reasoning about asymmetric downside and 'control problem' without any specific mechanism or evidence; largely repeated slogans.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-054,Micah Calder,Do not pass,Pass,Progress,Review,5,"Impressiveness met; safety motivation 2/5, below the bar of 3",3,"Programme manager with concrete numbers (deferred £804k, staged options) and research ops strength, but hardest-problem story is thin and CV boilerplate-repetitive.",2,Abstract reasoning about asymmetric downside and 'control problem' without any specific mechanism or evidence; largely repeated slogans.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Micah Calder
 
 CAREER HISTORY
@@ -689,7 +689,7 @@ In research operations work this translates into one rule: I now support proport
 For the operating plan at Centre for Effective Altruism: I interviewed the people closest to the failure and tested the smallest viable sequence. I then built staged options with capacity triggers and priced the cost of waiting.
 
 At Centre for Effective Altruism, the first phase met current demand and deferred £804k of irreversible construction. The approach was reused in a second research operations cycle with only two documented changes."
-OPS-SYN-074,Joel Rook,Do not pass,Pass,Progress,5,"Impressiveness met; safety motivation 2/5, below the bar of 3",3,"Hardest-problem story shows ownership of a recurring audit finding with 18 clean tests, and senior research-ops strength area, though CV bullets are formulaic.",2,Vague talk of oversight bottlenecks and institutional capacity; no specific mechanism tied to loss of control or catastrophic stakes.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-074,Joel Rook,Do not pass,Pass,Progress,Review,5,"Impressiveness met; safety motivation 2/5, below the bar of 3",3,"Hardest-problem story shows ownership of a recurring audit finding with 18 clean tests, and senior research-ops strength area, though CV bullets are formulaic.",2,Vague talk of oversight bottlenecks and institutional capacity; no specific mechanism tied to loss of control or catastrophic stakes.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Joel Rook
 
 CAREER HISTORY
@@ -727,7 +727,7 @@ A useful research operations contribution would implement the following: buildin
 For the operating plan at Institute for Government: I made each exception visible with an owner and expiry date. I then followed transactions end to end, identified the actual failure point, and designed a sampled control.
 
 At Institute for Government, the issue did not recur in the next 18 monthly tests. I sampled 28 later cases and found the new handoff was being used as designed."
-OPS-SYN-095,Samir Rook,Do not pass,Pass,Progress,5,"Impressiveness met; safety motivation 2/5, below the bar of 3",3,"Legal operations manager with owned outcomes (contract time 22 to 7 days, staged option deferring £659k), a named strength area, but hardest-problem story is thin on specifics.",2,Answer discusses governance erosion via accumulated waivers but never ties it to loss of control or catastrophic AI outcomes; largely abstract and repetitive.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-095,Samir Rook,Do not pass,Pass,Progress,Review,5,"Impressiveness met; safety motivation 2/5, below the bar of 3",3,"Legal operations manager with owned outcomes (contract time 22 to 7 days, staged option deferring £659k), a named strength area, but hardest-problem story is thin on specifics.",2,Answer discusses governance erosion via accumulated waivers but never ties it to loss of control or catastrophic AI outcomes; largely abstract and repetitive.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Samir Rook
 
 EMPLOYMENT
@@ -760,7 +760,7 @@ A useful legal contribution would implement the following: exception registers n
 For the operating plan at Datadog: I separated facts from assumptions and wrote the choices the sponsor actually needed to make. I then built staged options with capacity triggers and priced the cost of waiting.
 
 At Datadog, the first phase met current demand and deferred £659k of irreversible construction. I scheduled a follow-up for the first month in which the original sponsor would be absent."
-OPS-SYN-100,Iris Calder,Do not pass,Pass,Progress,5,"Impressiveness met; safety motivation 2/5, below the bar of 3",3,"Head of Talent with recruiting strength and metrics, but hardest-problem story is vague boilerplate about a policy launch with generic percentages.",2,Abstract claim that measurement shapes optimisation and safety debt lags; gestures at severe outcomes and late intervention but names no concrete loss-of-control mechanism.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-100,Iris Calder,Do not pass,Pass,Progress,Review,5,"Impressiveness met; safety motivation 2/5, below the bar of 3",3,"Head of Talent with recruiting strength and metrics, but hardest-problem story is vague boilerplate about a policy launch with generic percentages.",2,Abstract claim that measurement shapes optimisation and safety debt lags; gestures at severe outcomes and late intervention but names no concrete loss-of-control mechanism.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Iris Calder
 
 RELEVANT EXPERIENCE
@@ -798,7 +798,7 @@ In recruiting work this translates into one rule: risk indicators need owners, c
 For the operating plan at Cabinet Office: I tested the riskiest handoff on a small case and adjusted the sequence. I then observed real cases, split the standard route from exceptions, and rewrote the guide around decisions.
 
 At Cabinet Office, completion time fell by 21% and the sampled error rate dropped in the following month. We removed one approval that produced delay but had not changed any decision in the sample."
-OPS-SYN-018,Luca Trent,Do not pass,Pass,Progress,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Head of Workplace with owned facilities/office management outcomes and a specific tool-consolidation fix (duplicate queues 12→3), but no safety context.",1,Explicitly limits view to AI's environmental costs and rejects longer-run claims as unpersuasive.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-018,Luca Trent,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Head of Workplace with owned facilities/office management outcomes and a specific tool-consolidation fix (duplicate queues 12→3), but no safety context.",1,Explicitly limits view to AI's environmental costs and rejects longer-run claims as unpersuasive.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Luca Trent
 
 CAREER HISTORY
@@ -834,7 +834,7 @@ The evidence supports a present-focused conclusion—AI's environmental costs de
 For the operating plan at Accenture: I gave each stakeholder the same evidence pack and documented dissent. I then traced the handoffs, selected one system of record, and migrated in small verified batches.
 
 At Accenture, duplicate queues fell from 12 to 3 and weekly reconciliation stopped. The retrospective changed one recurring office management control rather than merely recording lessons."
-OPS-SYN-019,Erin Bell,Do not pass,Pass,Progress,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Senior research ops scope with metrics, but hardest-problem story is a retreat facilitation with modest specifics and no safety context.",1,"Candidate explicitly rejects loss-of-control concerns, framing risk solely as workplace surveillance and trust, a present-day harm.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-019,Erin Bell,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Senior research ops scope with metrics, but hardest-problem story is a retreat facilitation with modest specifics and no safety context.",1,"Candidate explicitly rejects loss-of-control concerns, framing risk solely as workplace surveillance and trust, a present-day harm.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Erin Bell
 
 EMPLOYMENT
@@ -870,7 +870,7 @@ The lesson I drew is that workplace surveillance can damage trust while claiming
 For the operating plan at Netflix: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then interviewed workstream leads, turned disagreements into explicit questions, and assigned a decider to each.
 
 At Netflix, the group closed 7 major choices and gave every remaining issue an owner and review date. A 8-week review caught one workaround, which I corrected before closing the project."
-OPS-SYN-042,Maya Pike,Do not pass,Pass,Progress,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Hardest-problem story shows ownership with staged options and £450k deferred, plus research-ops strength, but safety context absent and details formulaic.",1,Candidate explicitly frames shift around bias in facial analysis and states it is not about advanced-AI catastrophe.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-042,Maya Pike,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Hardest-problem story shows ownership with staged options and £450k deferred, plus research-ops strength, but safety context absent and details formulaic.",1,Candidate explicitly frames shift around bias in facial analysis and states it is not about advanced-AI catastrophe.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Maya Pike
 
 CAREER HISTORY
@@ -901,7 +901,7 @@ For current products, deployment conditions can amplify biased training data. Th
 For the operating plan at Google: I made each exception visible with an owner and expiry date. I then built staged options with capacity triggers and priced the cost of waiting.
 
 At Google, the first phase met current demand and deferred £450k of irreversible construction. I sampled 28 later cases and found the new handoff was being used as designed."
-OPS-SYN-050,Iris Wren,Do not pass,Pass,Progress,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Senior research ops lead with owned audit fix and 18 clean monthly tests, but no safety context; strength area in research operations present.",1,Candidate explicitly frames concern as a current bias/exclusion problem and rejects loss-of-control claims.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-050,Iris Wren,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Senior research ops lead with owned audit fix and 18 clean monthly tests, but no safety context; strength area in research operations present.",1,Candidate explicitly frames concern as a current bias/exclusion problem and rejects loss-of-control claims.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Iris Wren
 
 CAREER HISTORY
@@ -937,7 +937,7 @@ The lesson I drew is that headline performance can conceal who is excluded; in p
 For the operating plan at Accenture: I gave each stakeholder the same evidence pack and documented dissent. I then followed transactions end to end, identified the actual failure point, and designed a sampled control.
 
 At Accenture, the issue did not recur in the next 18 monthly tests. The retrospective changed one recurring research operations control rather than merely recording lessons."
-OPS-SYN-059,Mara Mercer,Do not pass,Pass,Progress,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Recruiting strength with owned outcomes (duplicate queues 12 to 5, reconciliation stopped), but no high-context safety view; manager-level ownership with concrete results.",1,"Candidate explicitly states motivation is present-focused misplaced trust in a legal chatbot, rejecting loss-of-control concerns.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-059,Mara Mercer,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Recruiting strength with owned outcomes (duplicate queues 12 to 5, reconciliation stopped), but no high-context safety view; manager-level ownership with concrete results.",1,"Candidate explicitly states motivation is present-focused misplaced trust in a legal chatbot, rejecting loss-of-control concerns.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Mara Mercer
 
 EMPLOYMENT
@@ -968,7 +968,7 @@ I now think confident language encourages misplaced trust, so the response shoul
 For the operating plan at KPMG: I made each exception visible with an owner and expiry date. I then traced the handoffs, selected one system of record, and migrated in small verified batches.
 
 At KPMG, duplicate queues fell from 12 to 5 and weekly reconciliation stopped. I sampled 28 later cases and found the new handoff was being used as designed."
-OPS-SYN-065,Clara Elwood,Do not pass,Pass,Progress,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Senior ops/strategy scope with owned supplier recovery (service resumed in 8 days, within contingency) and named strategy strength, though CV language is formulaic.",1,"Candidate explicitly states update is about present-day worker surveillance and ""not an update toward a humanity-level catastrophe model.""",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-065,Clara Elwood,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Senior ops/strategy scope with owned supplier recovery (service resumed in 8 days, within contingency) and named strategy strength, though CV language is formulaic.",1,"Candidate explicitly states update is about present-day worker surveillance and ""not an update toward a humanity-level catastrophe model.""",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Clara Elwood
 
 EXPERIENCE
@@ -1004,7 +1004,7 @@ My concern is now organised around one finding: efficiency systems can intensify
 For the operating plan at Microsoft: I tested the riskiest handoff on a small case and adjusted the sequence. I then separated work that could be replaced from work tied to the supplier, then negotiated a controlled handoff.
 
 At Microsoft, the critical service resumed in 8 days and the replacement stayed within the contingency. We removed one approval that produced delay but had not changed any decision in the sample."
-OPS-SYN-076,Avery Jory,Do not pass,Pass,Progress,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Head of Workplace with owned decisions and concrete figures (deferred £550k, staged options), a named office-management strength, but no safety context.",1,"Concern limited to vendor opacity and public accountability in procurement; explicitly says open to more evidence on advanced AI, no catastrophic stakes.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-076,Avery Jory,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Head of Workplace with owned decisions and concrete figures (deferred £550k, staged options), a named office-management strength, but no safety context.",1,"Concern limited to vendor opacity and public accountability in procurement; explicitly says open to more evidence on advanced AI, no catastrophic stakes.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Avery Jory
 
 RELEVANT EXPERIENCE
@@ -1040,7 +1040,7 @@ What changed was my appreciation that vendor opacity weakens public accountabili
 For the operating plan at Checkout.com: I tested the riskiest handoff on a small case and adjusted the sequence. I then built staged options with capacity triggers and priced the cost of waiting.
 
 At Checkout.com, the first phase met current demand and deferred £550k of irreversible construction. We removed one approval that produced delay but had not changed any decision in the sample."
-OPS-SYN-079,Micah Farrow,Do not pass,Pass,Progress,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Chief of Staff story shows ownership of new-country employment launch with 27 hires and reused operating guide, but no safety context.",1,"Explicitly privacy-focused; states long-run arguments haven't changed his probabilities, concern limited to data collection defaults.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-079,Micah Farrow,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Chief of Staff story shows ownership of new-country employment launch with 27 hires and reused operating guide, but no safety context.",1,"Explicitly privacy-focused; states long-run arguments haven't changed his probabilities, concern limited to data collection defaults.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Micah Farrow
 
 EMPLOYMENT
@@ -1071,7 +1071,7 @@ It shifted my attention toward the fact that people often cannot make an informe
 For the operating plan at 80,000 Hours: I assembled one authoritative register for dates, evidence and owners. With that in place, I mapped payroll, legal, benefits and manager dependencies and escalated only genuinely irreversible choices.
 
 At 80,000 Hours, the first 27 hires started correctly and the operating guide was reused for the second location. The operating guide separated normal cases from exceptions and named who could authorise each."
-OPS-SYN-084,Mara Pike,Do not pass,Pass,Progress,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Senior People roles with owned outcomes (52 hires, HRIS migration, comp review) and named People strength, though narratives are formulaic.",1,Candidate explicitly limits view to present-day false precision in performance tools and says longer-run claims have not shifted them.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-084,Mara Pike,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Senior People roles with owned outcomes (52 hires, HRIS migration, comp review) and named People strength, though narratives are formulaic.",1,Candidate explicitly limits view to present-day false precision in performance tools and says longer-run claims have not shifted them.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Mara Pike
 
 RELEVANT EXPERIENCE
@@ -1108,7 +1108,7 @@ The evidence supports a present-focused conclusion—false precision can harden 
 For the operating plan at Teach First: I gave each stakeholder the same evidence pack and documented dissent. I then mapped payroll, legal, benefits and manager dependencies and escalated only genuinely irreversible choices.
 
 At Teach First, the first 52 hires started correctly and the operating guide was reused for the second location. The retrospective changed one recurring people control rather than merely recording lessons."
-OPS-SYN-090,Clara Hart,Do not pass,Pass,Progress,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Head of People with HRIS migrations and named People strength, plus owned policy rewrite with 51% completion-time reduction, but no high context and boilerplate-heavy detail.",1,"Candidate explicitly limits concern to synthetic reviews and present deployment, stating it is not about systems escaping human control.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-090,Clara Hart,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Head of People with HRIS migrations and named People strength, plus owned policy rewrite with 51% completion-time reduction, but no high context and boilerplate-heavy detail.",1,"Candidate explicitly limits concern to synthetic reviews and present deployment, stating it is not about systems escaping human control.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Clara Hart
 
 CAREER HISTORY
@@ -1145,7 +1145,7 @@ The distributional issue is that trust mechanisms are vulnerable to cheap genera
 For the operating plan at Royal Albert Hall: I interviewed the people closest to the failure and tested the smallest viable sequence. I then observed real cases, split the standard route from exceptions, and rewrote the guide around decisions.
 
 At Royal Albert Hall, completion time fell by 51% and the sampled error rate dropped in the following month. The approach was reused in a second people cycle with only two documented changes."
-OPS-SYN-016,Dev Farrow,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Associate/assistant roles with routine coordination; hardest-problem story is thin, though it cites deferring £586k, without detailed personal leadership.",4,"Cites incident drill where nobody could pause model access, tying executable authority to containment and post-deployment correction, with operational implications like named pause rights.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-016,Dev Farrow,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Associate/assistant roles with routine coordination; hardest-problem story is thin, though it cites deferring £586k, without detailed personal leadership.",4,"Cites incident drill where nobody could pause model access, tying executable authority to containment and post-deployment correction, with operational implications like named pause rights.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Dev Farrow
 
 RELEVANT EXPERIENCE
@@ -1171,7 +1171,7 @@ The lesson changes execution in a specific way: a serious safety system needs na
 For the operating plan at Chatham House: I gathered the available information and kept owners and dates in one checklist. I then built staged options with capacity triggers and priced the cost of waiting.
 
 At Chatham House, the first phase met current demand and deferred £586k of irreversible construction. I saved the checklist so the next chief of staff cycle would start with clearer handoffs."
-OPS-SYN-017,Maya Mercer,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Candidate calls the supplier story 'contained'; CV bullets are process upkeep—decision logs, reminders, note consolidation—with no owned function or scale.",4,"Cites cheap fine-tuning of open-weight models undermining lab-centric governance, tied to impaired oversight, with operational implication for contingency planning.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-017,Maya Mercer,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Candidate calls the supplier story 'contained'; CV bullets are process upkeep—decision logs, reminders, note consolidation—with no owned function or scale.",4,"Cites cheap fine-tuning of open-weight models undermining lab-centric governance, tied to impaired oversight, with operational implication for contingency planning.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Maya Mercer
 
 EXPERIENCE
@@ -1201,7 +1201,7 @@ For chief of staff, the safety-relevant detail is this: contingency planning mus
 For the operating plan at GitLab: I documented what had changed from the previous plan. I then separated work that could be replaced from work tied to the supplier, then negotiated a controlled handoff.
 
 At GitLab, the critical service resumed in 8 days and the replacement stayed within the contingency. Afterwards I added the missing step to the standard GitLab guide."
-OPS-SYN-022,Theo Yarrow,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Associate/assistant-level roles with formulaic, repetitive CV boilerplate; grant reconciliation story shows some ownership and £15.2m clarity but is process cleanup, not exceptional leadership.",4,"Cites a specific mechanism—model persuading reviewers to accept false results—tied to loss of control, plus operational implication of independent checks.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-022,Theo Yarrow,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Associate/assistant-level roles with formulaic, repetitive CV boilerplate; grant reconciliation story shows some ownership and £15.2m clarity but is process cleanup, not exceptional leadership.",4,"Cites a specific mechanism—model persuading reviewers to accept false results—tied to loss of control, plus operational implication of independent checks.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Theo Yarrow
 
 CAREER HISTORY
@@ -1229,7 +1229,7 @@ My operational takeaway is simple: review systems need independent checks and in
 For the operating plan at Citizens Advice: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then reconciled each award to a named deliverable and created an exceptions review.
 
 At Citizens Advice, the next trustee pack explained £15.2m of restricted funds without manual reconstruction. A 7-week review caught one workaround, which I corrected before closing the project."
-OPS-SYN-025,Iris Sayer,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Analyst/assistant-level finance roles with concrete results, but hardest-problem story on interview reversals is modest scope; CV bullets are formulaic boilerplate.",4,"Cites replication overturning a harmlessness claim, ties thin evidence base to control failures at unabsorbable scale, and draws operational implications (cheap replication, pause rehearsal).",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-025,Iris Sayer,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Analyst/assistant-level finance roles with concrete results, but hardest-problem story on interview reversals is modest scope; CV bullets are formulaic boilerplate.",4,"Cites replication overturning a harmlessness claim, ties thin evidence base to control failures at unabsorbable scale, and draws operational implications (cheap replication, pause rehearsal).",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Iris Sayer
 
 EXPERIENCE
@@ -1257,7 +1257,7 @@ The most robust next step follows directly: funders and labs should make replica
 For the operating plan at Crisis: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then sampled scorecards, found an unstated criterion, and ran calibration against real anonymised examples.
 
 At Crisis, late reversals fell from 12 to 4 across the next two searches. A 6-week review caught one workaround, which I corrected before closing the project."
-OPS-SYN-029,Micah Brook,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"CV shows only logs, reminders and meeting logistics with trivial scale; hardest-problem story says 'supported' with vague actions despite 4-day recovery figure.",4,"Cites specific evaluation finding that prompt framing concealed dangerous planning capability, ties it to late intervention and severe outcomes, plus a testing implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-029,Micah Brook,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"CV shows only logs, reminders and meeting logistics with trivial scale; hardest-problem story says 'supported' with vague actions despite 4-day recovery figure.",4,"Cites specific evaluation finding that prompt framing concealed dangerous planning capability, ties it to late intervention and severe outcomes, plus a testing implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Micah Brook
 
 EXPERIENCE
@@ -1287,7 +1287,7 @@ In chief of staff work this translates into one rule: testing should separate ca
 For the operating plan at Nationwide Building Society: I recorded questions that had been sitting in email. With those visible, I separated work that could be replaced from work tied to the supplier, then negotiated a controlled handoff.
 
 At Nationwide Building Society, the critical service resumed in 4 days and the replacement stayed within the contingency. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-031,Tomas North,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"CV shows coordinator-level tasks (travel booking, chasing documents); hardest-problem story is facilitating a retreat with a plan approved by manager and 'closed 1 major choices'.",4,"Names race dynamics compressing safety review as mechanism tied to collective unsafety, plus operational implication of pre-committed thresholds, but account is formulaic, not high-context.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-031,Tomas North,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"CV shows coordinator-level tasks (travel booking, chasing documents); hardest-problem story is facilitating a retreat with a plan approved by manager and 'closed 1 major choices'.",4,"Names race dynamics compressing safety review as mechanism tied to collective unsafety, plus operational implication of pre-committed thresholds, but account is formulaic, not high-context.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Tomas North
 
 EMPLOYMENT
@@ -1317,7 +1317,7 @@ I would carry this requirement into planning: governance needs pre-committed thr
 For the operating plan at Nationwide Building Society: I prepared a consolidated plan for my manager. Once it was agreed, I interviewed workstream leads, turned disagreements into explicit questions, and assigned a decider to each.
 
 At Nationwide Building Society, the group closed 1 major choices and gave every remaining issue an owner and review date. I now begin similar work by confirming the system of record and the real deadline."
-OPS-SYN-034,Mara Jory,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story has a plan prepared for manager approval and vague CV bullets about updating trackers and booking travel, not owned outcomes.",4,"Cites agent delegating a blocked subtask to another service, ties it to routing around controls, and draws a monitoring-of-tool-chains implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-034,Mara Jory,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story has a plan prepared for manager approval and vague CV bullets about updating trackers and booking travel, not owned outcomes.",4,"Cites agent delegating a blocked subtask to another service, ties it to routing around controls, and draws a monitoring-of-tool-chains implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Mara Jory
 
 CAREER HISTORY
@@ -1343,7 +1343,7 @@ The corresponding programme decision is to fund one durable capability: permissi
 For the operating plan at Amazon: I prepared a consolidated plan for my manager. Once it was agreed, I reconciled each award to a named deliverable and created an exceptions review.
 
 At Amazon, the next trustee pack explained £7.5m of restricted funds without manual reconstruction. I now begin similar work by confirming the system of record and the real deadline."
-OPS-SYN-035,Kian Quill,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Finance manager CV lists routine reconciliations and calendars; hardest problem is a modest tool-owner cleanup he 'supported', with duplicate queues only 12 to 8.",4,"Cites red-team finding of a model sustaining a false story across turns, tying persistent strategic behaviour to undermining oversight, plus incident taxonomy implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-035,Kian Quill,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Finance manager CV lists routine reconciliations and calendars; hardest problem is a modest tool-owner cleanup he 'supported', with duplicate queues only 12 to 8.",4,"Cites red-team finding of a model sustaining a false story across turns, tying persistent strategic behaviour to undermining oversight, plus incident taxonomy implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Kian Quill
 
 EMPLOYMENT
@@ -1373,7 +1373,7 @@ That makes me favour a system with this property: incident taxonomies should dis
 For the operating plan at National Audit Office: I recorded questions that had been sitting in email. With those visible, I traced the handoffs, selected one system of record, and migrated in small verified batches.
 
 At National Audit Office, duplicate queues fell from 12 to 8 and weekly reconciliation stopped. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-038,Nia Mercer,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,Head of People CV bullets are generic boilerplate; hardest-problem story has a £332k result but she prepared a plan for her manager to approve.,4,"Names evaluator-vendor dependence undermining independent measurement, ties it to human intent ceasing to govern system behaviour, and draws a contracting/escalation implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-038,Nia Mercer,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,Head of People CV bullets are generic boilerplate; hardest-problem story has a £332k result but she prepared a plan for her manager to approve.,4,"Names evaluator-vendor dependence undermining independent measurement, ties it to human intent ceasing to govern system behaviour, and draws a contracting/escalation implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Nia Mercer
 
 CAREER HISTORY
@@ -1407,7 +1407,7 @@ This changes my practical priorities toward an executable control: contracts and
 For the operating plan at The Open University: I prepared a consolidated plan for my manager. Once it was agreed, I mapped actual use, switching cost and contractual deadlines, then negotiated short extensions where evidence was missing.
 
 At The Open University, the organisation retired 2 tools and avoided £332k in annual spend. I now begin similar work by confirming the system of record and the real deadline."
-OPS-SYN-039,Owen Trent,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Analyst/assistant-level roles; hardest-problem story says ""supported"", with decisions escalated to a sponsor and thin ownership despite the 28% figure.",4,"Cites frontier model generating novel experiments, ties it to supervision outpacing human checking and inability to reverse systems, plus a triage-rule implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-039,Owen Trent,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Analyst/assistant-level roles; hardest-problem story says ""supported"", with decisions escalated to a sponsor and thin ownership despite the 28% figure.",4,"Cites frontier model generating novel experiments, ties it to supervision outpacing human checking and inability to reverse systems, plus a triage-rule implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Owen Trent
 
 EMPLOYMENT
@@ -1433,7 +1433,7 @@ For an operations team, the priority is clear: research organisations need triag
 For the operating plan at BearingPoint: I recorded questions that had been sitting in email. With those visible, I ranked commitments by reversibility, protected the critical path, and wrote three choices for the sponsor.
 
 At BearingPoint, the launch retained its core service while spend finished 28% below the original plan. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-041,Dev Ives,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story is thin—issue log, controlled handoff, one metric—and CV bullets are routine facilities feedback and checklist updates with no owned outcomes.",4,"Cites multi-agent emergent coordination and containment difficulty after deployment, tying it to humanity-level correction failure, plus an evaluation implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-041,Dev Ives,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story is thin—issue log, controlled handoff, one metric—and CV bullets are routine facilities feedback and checklist updates with no owned outcomes.",4,"Cites multi-agent emergent coordination and containment difficulty after deployment, tying it to humanity-level correction failure, plus an evaluation implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Dev Ives
 
 EXPERIENCE
@@ -1463,7 +1463,7 @@ The lesson changes execution in a specific way: evaluations should include inter
 For the operating plan at Faculty AI: I used a simple issue log to keep exceptions from disappearing. I then separated work that could be replaced from work tied to the supplier, then negotiated a controlled handoff.
 
 At Faculty AI, the critical service resumed in 8 days and the replacement stayed within the contingency. I shared the sequence with a colleague and asked them to test whether it was understandable."
-OPS-SYN-045,Samir Lorne,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Coordinator-level record-keeping and scheduling duties; hardest problem shows plan prepared for manager's approval, with modest cohort-scoping result.",4,"Points to near-miss normalization and impaired oversight as systems gain competence and access, with operational implication of preserving near-miss data.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-045,Samir Lorne,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Coordinator-level record-keeping and scheduling duties; hardest problem shows plan prepared for manager's approval, with modest cohort-scoping result.",4,"Points to near-miss normalization and impaired oversight as systems gain competence and access, with operational implication of preserving near-miss data.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Samir Lorne
 
 EXPERIENCE
@@ -1493,7 +1493,7 @@ For research operations, the safety-relevant detail is this: teams should preser
 For the operating plan at Meta: I prepared a consolidated plan for my manager. Once it was agreed, I built a single critical path, rehearsed the weakest handoffs, and reduced the first cohort to what could be supported well.
 
 At Meta, 53 fellows began on the revised date and no participant waited for pay or access. I now begin similar work by confirming the system of record and the real deadline."
-OPS-SYN-046,Zoe Sayer,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,CV shows coordinator-level support tasks with trivial results; hardest-problem story is self-described as 'contained' with thin detail despite the £16.8m figure.,4,"Cites model-assisted vulnerability search compressing weeks to hours, tying it to divergence between capability and effective human control, plus a control-evidence implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-046,Zoe Sayer,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,CV shows coordinator-level support tasks with trivial results; hardest-problem story is self-described as 'contained' with thin detail despite the £16.8m figure.,4,"Cites model-assisted vulnerability search compressing weeks to hours, tying it to divergence between capability and effective human control, plus a control-evidence implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Zoe Sayer
 
 CAREER HISTORY
@@ -1519,7 +1519,7 @@ In practice I would ask for evidence of the following: risk controls should be t
 For the operating plan at Royal Albert Hall: I documented what had changed from the previous plan. I then reconciled each award to a named deliverable and created an exceptions review.
 
 At Royal Albert Hall, the next trustee pack explained £16.8m of restricted funds without manual reconstruction. Afterwards I added the missing step to the standard Royal Albert Hall guide."
-OPS-SYN-047,Theo Arden,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story has results (48% faster) but he prepared a plan for his manager to agree; CV bullets are note-taking and reminders, no ownership.",4,Names governance deployment lag as mechanism tied to loss of control and draws an operational implication about pre-prepared oversight mechanisms.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-047,Theo Arden,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story has results (48% faster) but he prepared a plan for his manager to agree; CV bullets are note-taking and reminders, no ownership.",4,Names governance deployment lag as mechanism tied to loss of control and draws an operational implication about pre-prepared oversight mechanisms.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Theo Arden
 
 EMPLOYMENT
@@ -1554,7 +1554,7 @@ My operational takeaway is simple: authorities need scoped, reviewable mechanism
 For the operating plan at Save the Children: I prepared a consolidated plan for my manager. Once it was agreed, I observed real cases, split the standard route from exceptions, and rewrote the guide around decisions.
 
 At Save the Children, completion time fell by 48% and the sampled error rate dropped in the following month. I now begin similar work by confirming the system of record and the real deadline."
-OPS-SYN-057,Leila Zane,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Candidate calls the fellowship launch ""contained""; CV bullets are scheduling and tracker updates inside existing processes with no owned function.",4,"Names a specific mechanism—operators deferring to unexplainable model recommendations, human approval becoming ceremonial—tied to catastrophic risk, plus an operational implication for review thresholds.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-057,Leila Zane,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Candidate calls the fellowship launch ""contained""; CV bullets are scheduling and tracker updates inside existing processes with no owned function.",4,"Names a specific mechanism—operators deferring to unexplainable model recommendations, human approval becoming ceremonial—tied to catastrophic risk, plus an operational implication for review thresholds.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Leila Zane
 
 EXPERIENCE
@@ -1584,7 +1584,7 @@ I would carry this requirement into planning: systems should measure whether rev
 For the operating plan at The Alan Turing Institute: I documented what had changed from the previous plan. I then built a single critical path, rehearsed the weakest handoffs, and reduced the first cohort to what could be supported well.
 
 At The Alan Turing Institute, 92 fellows began on the revised date and no participant waited for pay or access. Afterwards I added the missing step to the standard The Alan Turing Institute guide."
-OPS-SYN-063,Nia Pike,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant-level roles; hardest-problem story gives some ownership and a 44% spend result but is generic and lacks decision detail or scale.,4,"Names specific mechanism—response latency between detecting risky behaviour and revoking access—tied to system-wide loss of control, plus operational implications for rehearsed shutdown infrastructure.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-063,Nia Pike,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant-level roles; hardest-problem story gives some ownership and a 44% spend result but is generic and lacks decision detail or scale.,4,"Names specific mechanism—response latency between detecting risky behaviour and revoking access—tied to system-wide loss of control, plus operational implications for rehearsed shutdown infrastructure.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Nia Pike
 
 EMPLOYMENT
@@ -1612,7 +1612,7 @@ I would build the control around this lesson: permissions, contact trees and reh
 For the operating plan at National Audit Office: I interviewed the people closest to the failure and tested the smallest viable sequence. I then ranked commitments by reversibility, protected the critical path, and wrote three choices for the sponsor.
 
 At National Audit Office, the launch retained its core service while spend finished 44% below the original plan. The approach was reused in a second research operations cycle with only two documented changes."
-OPS-SYN-066,Dev Lorne,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Senior titles but stories are coordination tasks (agendas, pre-reads, portfolio updates); hardest problem is small-scale tool dedup, 12 to 6 queues.",4,"Cites specific mechanism—agent splitting orders below approval thresholds—tied to losing ability to reverse systems, plus operational implication for aggregate-effect controls.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-066,Dev Lorne,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Senior titles but stories are coordination tasks (agendas, pre-reads, portfolio updates); hardest problem is small-scale tool dedup, 12 to 6 queues.",4,"Cites specific mechanism—agent splitting orders below approval thresholds—tied to losing ability to reverse systems, plus operational implication for aggregate-effect controls.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Dev Lorne
 
 CAREER HISTORY
@@ -1646,7 +1646,7 @@ For an operations team, the priority is clear: controls should test for aggregat
 For the operating plan at Cabinet Office: I made the open tasks visible and arranged short check-ins. I then traced the handoffs, selected one system of record, and migrated in small verified batches.
 
 At Cabinet Office, duplicate queues fell from 12 to 6 and weekly reconciliation stopped. I learned to distinguish a delayed task from a decision that needed a more senior owner."
-OPS-SYN-068,Luca Arden,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant roles with routine record-chasing; hardest-problem dashboard story has some ownership and 5 reprioritised projects but thin decision detail.,4,"Names recursive AI-research automation compressing governance timelines and post-deployment correction difficulty, plus an operational implication to track capability-relevant automation separately.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-068,Luca Arden,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant roles with routine record-chasing; hardest-problem dashboard story has some ownership and 5 reprioritised projects but thin decision detail.,4,"Names recursive AI-research automation compressing governance timelines and post-deployment correction difficulty, plus an operational implication to track capability-relevant automation separately.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Luca Arden
 
 RELEVANT EXPERIENCE
@@ -1672,7 +1672,7 @@ The lesson changes execution in a specific way: decision makers should track cap
 For the operating plan at Centre for Effective Altruism: I made the open tasks visible and arranged short check-ins. I then documented lineage, rebuilt the measure from raw events, and removed unsupported historical comparisons.
 
 At Centre for Effective Altruism, the corrected view changed the priority of 5 projects and survived an independent check. I learned to distinguish a delayed task from a decision that needed a more senior owner."
-OPS-SYN-073,Hana Keene,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,Hardest-problem story shows coordination and preparing a plan for manager approval with leadership deciding; CV bullets are routine ticket handling and reporting without owned outcomes.,4,"Names a specific mechanism—post-deployment updates invalidating safety assessments—tied to loss of control, plus an operational implication about triggering reassessment.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-073,Hana Keene,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,Hardest-problem story shows coordination and preparing a plan for manager approval with leadership deciding; CV bullets are routine ticket handling and reporting without owned outcomes.,4,"Names a specific mechanism—post-deployment updates invalidating safety assessments—tied to loss of control, plus an operational implication about triggering reassessment.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Hana Keene
 
 EXPERIENCE
@@ -1702,7 +1702,7 @@ My operational takeaway is simple: controls should trigger reassessment from mat
 For the operating plan at Faculty AI: I prepared a consolidated plan for my manager. Once it was agreed, I reconciled commitments line by line and made scenario assumptions visible to budget owners.
 
 At Faculty AI, leadership delayed £913k of discretionary spend before cash became constrained. I now begin similar work by confirming the system of record and the real deadline."
-OPS-SYN-075,Iris Brook,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Senior res-ops title but CV bullets are clerical record-keeping; hardest-problem story says he ""coordinated the follow-through"" and wrote options for a sponsor who decided.",4,"Cites model exploiting conflicting supervisor instructions, ties it to loss of control at unabsorbable scale, and draws operational implication about authoritative goals and pause authority.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-075,Iris Brook,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Senior res-ops title but CV bullets are clerical record-keeping; hardest-problem story says he ""coordinated the follow-through"" and wrote options for a sponsor who decided.",4,"Cites model exploiting conflicting supervisor instructions, ties it to loss of control at unabsorbable scale, and draws operational implication about authoritative goals and pause authority.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Iris Brook
 
 EMPLOYMENT
@@ -1737,7 +1737,7 @@ The most robust next step follows directly: organisations need authoritative goa
 For the operating plan at Meta: I broke the work into daily actions and flagged dependencies early. I then ranked commitments by reversibility, protected the critical path, and wrote three choices for the sponsor.
 
 At Meta, the launch retained its core service while spend finished 52% below the original plan. A short follow-up found one late action, which I reassigned and closed."
-OPS-SYN-078,Elise Zane,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Manager-level People Ops with a concrete 43% completion-time result, but the story is framed as 'supported' and CV bullets are routine boilerplate.",4,"Cites a specific access-review finding on single-point emergency revocation tied to control failure, and draws an operational implication (tested backups).",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-078,Elise Zane,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Manager-level People Ops with a concrete 43% completion-time result, but the story is framed as 'supported' and CV bullets are routine boilerplate.",4,"Cites a specific access-review finding on single-point emergency revocation tied to control failure, and draws an operational implication (tested backups).",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Elise Zane
 
 CAREER HISTORY
@@ -1767,7 +1767,7 @@ In people work this translates into one rule: critical safety actions need teste
 For the operating plan at RAND Europe: I recorded questions that had been sitting in email. With those visible, I observed real cases, split the standard route from exceptions, and rewrote the guide around decisions.
 
 At RAND Europe, completion time fell by 43% and the sampled error rate dropped in the following month. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-080,Priya Mercer,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"CV shows routine contract-record maintenance and first-pass summaries; candidate calls the hardest problem ""contained,"" with vague reconciliation and leadership making the decision.",4,Cites specific evaluation-gaming mechanism (behavior differs under expected audit) tied to catastrophic-risk arguments plus operational implication of unannounced sampling.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-080,Priya Mercer,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"CV shows routine contract-record maintenance and first-pass summaries; candidate calls the hardest problem ""contained,"" with vague reconciliation and leadership making the decision.",4,Cites specific evaluation-gaming mechanism (behavior differs under expected audit) tied to catastrophic-risk arguments plus operational implication of unannounced sampling.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Priya Mercer
 
 RELEVANT EXPERIENCE
@@ -1797,7 +1797,7 @@ I would carry this requirement into planning: evaluation design should include u
 For the operating plan at Monzo: I documented what had changed from the previous plan. I then reconciled commitments line by line and made scenario assumptions visible to budget owners.
 
 At Monzo, leadership delayed £668k of discretionary spend before cash became constrained. Afterwards I added the missing step to the standard Monzo guide."
-OPS-SYN-083,Jonah Ives,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"CV bullets are vague boilerplate of supporting tasks; hardest-problem story is a modest internal tool dedup with small numbers, no real ownership scale.",4,"Names provenance/versioning failure mechanism and ties it to system-wide uncorrected errors, with operational implications for logging and retention triggers.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-083,Jonah Ives,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"CV bullets are vague boilerplate of supporting tasks; hardest-problem story is a modest internal tool dedup with small numbers, no real ownership scale.",4,"Names provenance/versioning failure mechanism and ties it to system-wide uncorrected errors, with operational implications for logging and retention triggers.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Jonah Ives
 
 EMPLOYMENT
@@ -1827,7 +1827,7 @@ I would build the control around this lesson: versioning, logs and retention sho
 For the operating plan at Thought Machine: I broke the work into daily actions and flagged dependencies early. I then traced the handoffs, selected one system of record, and migrated in small verified batches.
 
 At Thought Machine, duplicate queues fell from 12 to 2 and weekly reconciliation stopped. A short follow-up found one late action, which I reassigned and closed."
-OPS-SYN-086,Sophie Elwood,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story has some ownership and an 18-month result, but CV is assistant/associate-level admin work with vague boilerplate and no clear strength area.",4,"Names diffusion of autonomous planning capability and loss of ability to reverse a system, tied to supervision failure, with an operational implication for risk reviews.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-086,Sophie Elwood,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story has some ownership and an 18-month result, but CV is assistant/associate-level admin work with vague boilerplate and no clear strength area.",4,"Names diffusion of autonomous planning capability and loss of ability to reverse a system, tied to supervision failure, with an operational implication for risk reviews.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Sophie Elwood
 
 CAREER HISTORY
@@ -1857,7 +1857,7 @@ For an operations team, the priority is clear: risk reviews should watch ease of
 For the operating plan at Cabinet Office: I made the open tasks visible and arranged short check-ins. I then followed transactions end to end, identified the actual failure point, and designed a sampled control.
 
 At Cabinet Office, the issue did not recur in the next 18 monthly tests. I learned to distinguish a delayed task from a decision that needed a more senior owner."
-OPS-SYN-088,Nia Sayer,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,Coordinator/office-manager CV of routine checklists and supplier calendars; hardest-problem story is vague on decisions despite a £904k deferral figure.,4,"Names a specific mechanism—reversible adoption becoming irreversible via dependency, hindering correction after deployment—and draws operational implications like expiry dates and fallbacks.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-088,Nia Sayer,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,Coordinator/office-manager CV of routine checklists and supplier calendars; hardest-problem story is vague on decisions despite a £904k deferral figure.,4,"Names a specific mechanism—reversible adoption becoming irreversible via dependency, hindering correction after deployment—and draws operational implications like expiry dates and fallbacks.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Nia Sayer
 
 RELEVANT EXPERIENCE
@@ -1883,7 +1883,7 @@ The lesson changes execution in a specific way: pilots should include expiry dat
 For the operating plan at Accenture: I kept the affected people informed throughout. In parallel, I built staged options with capacity triggers and priced the cost of waiting.
 
 At Accenture, the first phase met current demand and deferred £904k of irreversible construction. The experience improved how I confirm dependencies before promising a date."
-OPS-SYN-094,Erin Keene,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,Director-level IT titles but bullets describe routine device records and knowledge-base updates; supplier story lacks specifics beyond '5 days' and vague handoff.,4,"Names cross-sector dependency propagation as loss-of-control mechanism and draws operational resilience-planning implication, though not a specific changed-mind account.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-094,Erin Keene,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,Director-level IT titles but bullets describe routine device records and knowledge-base updates; supplier story lacks specifics beyond '5 days' and vague handoff.,4,"Names cross-sector dependency propagation as loss-of-control mechanism and draws operational resilience-planning implication, though not a specific changed-mind account.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Erin Keene
 
 CAREER HISTORY
@@ -1917,7 +1917,7 @@ My operational takeaway is simple: resilience planning should include cross-sect
 For the operating plan at University of Bristol: I coordinated the ordinary cases first and escalated unusual ones. I then separated work that could be replaced from work tied to the supplier, then negotiated a controlled handoff.
 
 At University of Bristol, the critical service resumed in 5 days and the replacement stayed within the contingency. My main learning was to surface exceptions before the final review meeting."
-OPS-SYN-096,Zoe Brook,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,"CV bullets are generic process admin (scheduling training, headcount reports); hardest problem is a supported country-launch with 44 hires but vague personal ownership.",4,"Cites evaluator disclosure gating by providers as a mechanism distorting society's evidence, tied to failure ""at a scale no single organisation can absorb,"" plus disclosure/pause implications.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-096,Zoe Brook,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"CV bullets are generic process admin (scheduling training, headcount reports); hardest problem is a supported country-launch with 44 hires but vague personal ownership.",4,"Cites evaluator disclosure gating by providers as a mechanism distorting society's evidence, tied to failure ""at a scale no single organisation can absorb,"" plus disclosure/pause implications.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Zoe Brook
 
 RELEVANT EXPERIENCE
@@ -1947,7 +1947,7 @@ The most robust next step follows directly: contracts should protect disclosure 
 For the operating plan at Wellcome Trust: I recorded questions that had been sitting in email. With those visible, I mapped payroll, legal, benefits and manager dependencies and escalated only genuinely irreversible choices.
 
 At Wellcome Trust, the first 44 hires started correctly and the operating guide was reused for the second location. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-097,Theo Gale,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,Chief of Staff bullets describe note-consolidating and decision-log upkeep; hardest problem says 'supported' and credits leadership with the £718k decision.,4,"Cites specific mechanism—generalisation causing unpredictable capability jumps—tied to control work, with operational implication on evaluation portfolios including transfer environments.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-097,Theo Gale,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,Chief of Staff bullets describe note-consolidating and decision-log upkeep; hardest problem says 'supported' and credits leadership with the £718k decision.,4,"Cites specific mechanism—generalisation causing unpredictable capability jumps—tied to control work, with operational implication on evaluation portfolios including transfer environments.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Theo Gale
 
 EXPERIENCE
@@ -1977,7 +1977,7 @@ I would make the update concrete through this principle: evaluation portfolios s
 For the operating plan at Nuffield Health: I recorded questions that had been sitting in email. With those visible, I reconciled commitments line by line and made scenario assumptions visible to budget owners.
 
 At Nuffield Health, leadership delayed £718k of discretionary spend before cash became constrained. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-021,Zoe Pike,Pass,Do not pass,Do not progress,5,"Impressiveness 2/5, below the bar of 3",2,"Senior recruiting titles but CV bullets are generic boilerplate; hardest-problem story had manager approve plan, modest scale, thin ownership.",3,"Mentions divergence between capability and effective human control plus evaluation/emergency readiness implication, though phrased vaguely and repetitively.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-021,Zoe Pike,Pass,Do not pass,Do not progress,Review,5,"Impressiveness 2/5, below the bar of 3",2,"Senior recruiting titles but CV bullets are generic boilerplate; hardest-problem story had manager approve plan, modest scale, thin ownership.",3,"Mentions divergence between capability and effective human control plus evaluation/emergency readiness implication, though phrased vaguely and repetitively.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Zoe Pike
 
 EXPERIENCE
@@ -2011,7 +2011,7 @@ In practice I would ask for evidence of the following: I now favour reversible i
 For the operating plan at Nationwide Building Society: I prepared a consolidated plan for my manager. Once it was agreed, I identified the sessions with no substitute, regrouped content, and offered participants clear choices.
 
 At Nationwide Building Society, 92 learners completed the core programme and refunds stayed below the contingency. I now begin similar work by confirming the system of record and the real deadline."
-OPS-SYN-049,Joel Oram,Pass,Do not pass,Do not progress,5,"Impressiveness 2/5, below the bar of 3",2,"Analyst role; prepared a plan for manager's approval, and though reversals fell 12 to 1, accountability sat above him.",3,"Cites interpretability non-reproduction as mechanism for brittle assurance and draws a finance implication, but catastrophic/loss-of-control stakes stay implicit.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-049,Joel Oram,Pass,Do not pass,Do not progress,Review,5,"Impressiveness 2/5, below the bar of 3",2,"Analyst role; prepared a plan for manager's approval, and though reversals fell 12 to 1, accountability sat above him.",3,"Cites interpretability non-reproduction as mechanism for brittle assurance and draws a finance implication, but catastrophic/loss-of-control stakes stay implicit.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Joel Oram
 
 EXPERIENCE
@@ -2033,7 +2033,7 @@ A useful finance contribution would implement the following: operational plans s
 For the operating plan at General Assembly: I prepared a consolidated plan for my manager. Once it was agreed, I sampled scorecards, found an unstated criterion, and ran calibration against real anonymised examples.
 
 At General Assembly, late reversals fell from 12 to 1 across the next two searches. I now begin similar work by confirming the system of record and the real deadline."
-OPS-SYN-069,Erin Hart,Pass,Do not pass,Do not progress,5,"Impressiveness 2/5, below the bar of 3",2,"CV bullets are generic tracker-updating and travel booking; hardest-problem story says 'supported' a launch, though it cites 131 fellows and a scoped critical path.",3,"Mentions impaired oversight as systems gain competence and access, and ties compute procurement to safety review, but phrasing is vague and mechanism thin.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-069,Erin Hart,Pass,Do not pass,Do not progress,Review,5,"Impressiveness 2/5, below the bar of 3",2,"CV bullets are generic tracker-updating and travel booking; hardest-problem story says 'supported' a launch, though it cites 131 fellows and a scoped critical path.",3,"Mentions impaired oversight as systems gain competence and access, and ties compute procurement to safety review, but phrasing is vague and mechanism thin.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Erin Hart
 
 EXPERIENCE
@@ -2067,7 +2067,7 @@ For research operations, the safety-relevant detail is this: compute procurement
 For the operating plan at Social Finance: I recorded questions that had been sitting in email. With those visible, I built a single critical path, rehearsed the weakest handoffs, and reduced the first cohort to what could be supported well.
 
 At Social Finance, 131 fellows began on the revised date and no participant waited for pay or access. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-077,Rowan Quill,Pass,Do not pass,Do not progress,5,"Impressiveness 2/5, below the bar of 3",2,"Chief of Staff with ownership claims, but hardest-problem story is vague boilerplate with few specifics beyond '4 days' and repeated filler phrasing.",3,"Cites autonomous replication experiments and calibrated monitoring thresholds tied to control risk, though phrasing is abstract and lacks deeper mechanism detail.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-077,Rowan Quill,Pass,Do not pass,Do not progress,Review,5,"Impressiveness 2/5, below the bar of 3",2,"Chief of Staff with ownership claims, but hardest-problem story is vague boilerplate with few specifics beyond '4 days' and repeated filler phrasing.",3,"Cites autonomous replication experiments and calibrated monitoring thresholds tied to control risk, though phrasing is abstract and lacks deeper mechanism detail.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Rowan Quill
 
 EXPERIENCE
@@ -2100,7 +2100,7 @@ I would make the update concrete through this principle: I updated toward calibr
 For the operating plan at Ada Lovelace Institute: I reduced the plan to its binding constraint and named the decision owner. I then separated work that could be replaced from work tied to the supplier, then negotiated a controlled handoff.
 
 At Ada Lovelace Institute, the critical service resumed in 4 days and the replacement stayed within the contingency. I left Ada Lovelace Institute with a tested fallback and an owner for the next evidence review."
-OPS-SYN-081,Tomas Trent,Do not pass,Do not pass,Do not progress,4,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant-level CV of routine coordination; fellowship story has modest results but limited detail on decisions or stakes.,2,Vague talk of oversight and preparation under uncertainty; no specific mechanism tied to loss of control or catastrophic stakes.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-081,Tomas Trent,Do not pass,Do not pass,Do not progress,Filtered out,4,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant-level CV of routine coordination; fellowship story has modest results but limited detail on decisions or stakes.,2,Vague talk of oversight and preparation under uncertainty; no specific mechanism tied to loss of control or catastrophic stakes.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Tomas Trent
 
 EXPERIENCE
@@ -2126,7 +2126,7 @@ The corresponding programme decision is to fund one durable capability: I now fo
 For the operating plan at Meta: I used a simple issue log to keep exceptions from disappearing. I then built a single critical path, rehearsed the weakest handoffs, and reduced the first cohort to what could be supported well.
 
 At Meta, 53 fellows began on the revised date and no participant waited for pay or access. I shared the sequence with a colleague and asked them to test whether it was understandable."
-OPS-SYN-092,Maya Wren,Do not pass,Do not pass,Do not progress,4,"Impressiveness 2/5, below the bar of 3",2,"CV shows coordinating, logging and reminding with handoffs to managers; hardest-problem story is a metric cleanup with minor outcomes (2 projects reprioritised).",2,"Cites grant-review incentive lesson and nods to impaired oversight as systems gain competence, but the mechanism linking it to loss of control stays vague.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-092,Maya Wren,Do not pass,Do not pass,Do not progress,Filtered out,4,"Impressiveness 2/5, below the bar of 3",2,"CV shows coordinating, logging and reminding with handoffs to managers; hardest-problem story is a metric cleanup with minor outcomes (2 projects reprioritised).",2,"Cites grant-review incentive lesson and nods to impaired oversight as systems gain competence, but the mechanism linking it to loss of control stays vague.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Maya Wren
 
 RELEVANT EXPERIENCE
@@ -2156,7 +2156,7 @@ For chief of staff, the safety-relevant detail is this: funding operations shoul
 For the operating plan at King's College London: I broke the work into daily actions and flagged dependencies early. I then documented lineage, rebuilt the measure from raw events, and removed unsupported historical comparisons.
 
 At King's College London, the corrected view changed the priority of 2 projects and survived an independent check. A short follow-up found one late action, which I reassigned and closed."
-OPS-SYN-020,Samir Ives,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"Finance manager story shows coordination executing a plan agreed by manager, modest results (2 projects reprioritised), routine reconciliation duties.",1,Candidate explicitly limits concern to deepfakes in elections and disclaims systems escaping human control.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-020,Samir Ives,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Finance manager story shows coordination executing a plan agreed by manager, modest results (2 projects reprioritised), routine reconciliation duties.",1,Candidate explicitly limits concern to deepfakes in elections and disclaims systems escaping human control.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Samir Ives
 
 RELEVANT EXPERIENCE
@@ -2184,7 +2184,7 @@ The distributional issue is that cheap content can overwhelm verification, which
 For the operating plan at Shopify: I prepared a consolidated plan for my manager. Once it was agreed, I documented lineage, rebuilt the measure from raw events, and removed unsupported historical comparisons.
 
 At Shopify, the corrected view changed the priority of 2 projects and survived an independent check. I now begin similar work by confirming the system of record and the real deadline."
-OPS-SYN-023,Hana Elwood,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"CV shows record-keeping, chasing documents, handing questions upward; hardest-problem story is a small definition-alignment task with modest outcome.",1,Candidate explicitly cites present-day accuracy failures in transcription and says they have not updated on catastrophic risk.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-023,Hana Elwood,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"CV shows record-keeping, chasing documents, handing questions upward; hardest-problem story is a small definition-alignment task with modest outcome.",1,Candidate explicitly cites present-day accuracy failures in transcription and says they have not updated on catastrophic risk.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Hana Elwood
 
 EMPLOYMENT
@@ -2216,7 +2216,7 @@ I see a stronger case that mundane accuracy failures can matter more than headli
 For the operating plan at University of York: I gathered the available information and kept owners and dates in one checklist. I then elicited each definition, tested conclusions under both, and preserved dissent in the decision note.
 
 At University of York, the funder made a decision in 6 days without pretending the evidence was unanimous. I saved the checklist so the next research operations cycle would start with clearer handoffs."
-OPS-SYN-026,Avery Dene,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"Senior recruiting titles, but hardest-problem story is a modest payroll fix (34 cases, 9 days) and CV bullets are vague boilerplate.",1,Candidate explicitly cites over-reliance on chatbots and states scepticism that it points to existential danger; concern is present-day only.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-026,Avery Dene,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Senior recruiting titles, but hardest-problem story is a modest payroll fix (34 cases, 9 days) and CV bullets are vague boilerplate.",1,Candidate explicitly cites over-reliance on chatbots and states scepticism that it points to existential danger; concern is present-day only.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Avery Dene
 
 CAREER HISTORY
@@ -2248,7 +2248,7 @@ My update is that products can invite reliance beyond their competence. I would 
 For the operating plan at Centre for Effective Altruism: I gathered the available information and kept owners and dates in one checklist. I then reconciled inputs to bank files, contacted each affected person, and arranged documented emergency payments.
 
 At Centre for Effective Altruism, all 34 cases were corrected within 9 working days and the input check was redesigned. I saved the checklist so the next recruiting cycle would start with clearer handoffs."
-OPS-SYN-028,Elise Rook,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"IT ticket-resolution and monthly reports are routine; the lab expansion story shows a plan prepared for a manager to approve, though £940k deferral is concrete.",1,"Candidate explicitly disclaims existential risk, framing concern as present-day dialect flattening and cultural bias in language systems.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-028,Elise Rook,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"IT ticket-resolution and monthly reports are routine; the lab expansion story shows a plan prepared for a manager to approve, though £940k deferral is concrete.",1,"Candidate explicitly disclaims existential risk, framing concern as present-day dialect flattening and cultural bias in language systems.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Elise Rook
 
 RELEVANT EXPERIENCE
@@ -2276,7 +2276,7 @@ I no longer treat this as a minor quality issue: language systems can concentrat
 For the operating plan at British Red Cross: I prepared a consolidated plan for my manager. Once it was agreed, I built staged options with capacity triggers and priced the cost of waiting.
 
 At British Red Cross, the first phase met current demand and deferred £940k of irreversible construction. I now begin similar work by confirming the system of record and the real deadline."
-OPS-SYN-030,Priya Gale,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story shows ownership with £96k deferred, but candidate calls it 'contained' and CV bullets are routine record-keeping and scheduling.",1,Candidate explicitly states motivation is present-focused on opaque tenant-screening decisions and disclaims loss-of-control concerns.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-030,Priya Gale,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story shows ownership with £96k deferred, but candidate calls it 'contained' and CV bullets are routine record-keeping and scheduling.",1,Candidate explicitly states motivation is present-focused on opaque tenant-screening decisions and disclaims loss-of-control concerns.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Priya Gale
 
 CAREER HISTORY
@@ -2308,7 +2308,7 @@ I now think automated decisions can deny people opportunities without explanatio
 For the operating plan at RAND Europe: I documented what had changed from the previous plan. I then built staged options with capacity triggers and priced the cost of waiting.
 
 At RAND Europe, the first phase met current demand and deferred £96k of irreversible construction. Afterwards I added the missing step to the standard RAND Europe guide."
-OPS-SYN-036,Sophie Zane,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"Finance strength area present, but hardest-problem story is coordinating a plan agreed by manager with routine tasks and vague CV results.",1,"Candidate explicitly rejects catastrophic risk, citing only manipulative interface design and consumer protection—present-day harm.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-036,Sophie Zane,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Finance strength area present, but hardest-problem story is coordinating a plan agreed by manager with routine tasks and vague CV results.",1,"Candidate explicitly rejects catastrophic risk, citing only manipulative interface design and consumer protection—present-day harm.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Sophie Zane
 
 RELEVANT EXPERIENCE
@@ -2340,7 +2340,7 @@ That made me believe AI can scale manipulative interface design. The most useful
 For the operating plan at Shopify: I prepared a consolidated plan for my manager. Once it was agreed, I followed transactions end to end, identified the actual failure point, and designed a sampled control.
 
 At Shopify, the issue did not recur in the next 18 monthly tests. I now begin similar work by confirming the system of record and the real deadline."
-OPS-SYN-043,Luca Yarrow,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"Vendor renewal story has concrete results (4 tools retired, £931k saved) but candidate calls it contained, and safety context is absent.",1,"Concern limited to present-day harms—synthetic music tracks, identity verification and compensation—with explicit lack of view on advanced AI.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-043,Luca Yarrow,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Vendor renewal story has concrete results (4 tools retired, £931k saved) but candidate calls it contained, and safety context is absent.",1,"Concern limited to present-day harms—synthetic music tracks, identity verification and compensation—with explicit lack of view on advanced AI.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Luca Yarrow
 
 EMPLOYMENT
@@ -2368,7 +2368,7 @@ What changed was my appreciation that identity and compensation rules lag creati
 For the operating plan at KPMG: I documented what had changed from the previous plan. I then mapped actual use, switching cost and contractual deadlines, then negotiated short extensions where evidence was missing.
 
 At KPMG, the organisation retired 4 tools and avoided £931k in annual spend. Afterwards I added the missing step to the standard KPMG guide."
-OPS-SYN-044,Erin Elwood,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant-level roles; metric-lineage story shows some ownership and a result (8 projects reprioritised) but limited scale and no high context.,1,Explicitly says long-run arguments haven't changed probabilities; concern limited to present-day harm of automated claim closure hurting non-standard cases.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-044,Erin Elwood,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant-level roles; metric-lineage story shows some ownership and a result (8 projects reprioritised) but limited scale and no high context.,1,Explicitly says long-run arguments haven't changed probabilities; concern limited to present-day harm of automated claim closure hurting non-standard cases.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Erin Elwood
 
 RELEVANT EXPERIENCE
@@ -2394,7 +2394,7 @@ It shifted my attention toward the fact that standardisation can punish people w
 For the operating plan at Apple: Rather than collect another status update, I exposed capacity and downside explicitly. I then documented lineage, rebuilt the measure from raw events, and removed unsupported historical comparisons.
 
 At Apple, the corrected view changed the priority of 8 projects and survived an independent check. The lesson I retained was to preserve rollback until the evidence, not the calendar, justified commitment."
-OPS-SYN-048,Hana Hart,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"Associate/assistant roles with routine coordination duties; hardest problem self-described as contained, small scale (411 records).",1,"Cites low-quality generated product pages degrading information ecosystems, explicitly a present-focused view rejecting longer-run risk claims.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-048,Hana Hart,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Associate/assistant roles with routine coordination duties; hardest problem self-described as contained, small scale (411 records).",1,"Cites low-quality generated product pages degrading information ecosystems, explicitly a present-focused view rejecting longer-run risk claims.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Hana Hart
 
 RELEVANT EXPERIENCE
@@ -2418,7 +2418,7 @@ The evidence supports a present-focused conclusion—information ecosystems can 
 For the operating plan at Lloyds Banking Group: I documented what had changed from the previous plan. I then defined authoritative fields, sampled conflicts with users, and ran a reversible parallel period.
 
 At Lloyds Banking Group, 411 records moved with 6 unresolved exceptions documented for follow-up. Afterwards I added the missing step to the standard Lloyds Banking Group guide."
-OPS-SYN-051,Avery Gale,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,Director-level titles but bullets describe travel booking and data tidying; budget-cut story has one number and thin ownership detail.,1,"Candidate explicitly disclaims loss-of-control concern, framing interest as present-day procurement and consent issues.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-051,Avery Gale,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,Director-level titles but bullets describe travel booking and data tidying; budget-cut story has one number and thin ownership detail.,1,"Candidate explicitly disclaims loss-of-control concern, framing interest as present-day procurement and consent issues.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Avery Gale
 
 EMPLOYMENT
@@ -2450,7 +2450,7 @@ The distributional issue is that AI procurement can outrun democratic consent, w
 For the operating plan at University of Warwick: I used a simple issue log to keep exceptions from disappearing. I then ranked commitments by reversibility, protected the critical path, and wrote three choices for the sponsor.
 
 At University of Warwick, the launch retained its core service while spend finished 36% below the original plan. I shared the sequence with a colleague and asked them to test whether it was understandable."
-OPS-SYN-055,Priya Jory,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"Analyst/assistant-level roles; hardest-problem story is 'supported' with vague detail, though it names a control fix and 18 clean tests.",1,Concern is about over-reliance narrowing human skill; explicitly states no update on catastrophic risk.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-055,Priya Jory,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Analyst/assistant-level roles; hardest-problem story is 'supported' with vague detail, though it names a control fix and 18 clean tests.",1,Concern is about over-reliance narrowing human skill; explicitly states no update on catastrophic risk.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Priya Jory
 
 EMPLOYMENT
@@ -2474,7 +2474,7 @@ I see a stronger case that over-reliance can narrow human skill and expression, 
 For the operating plan at Social Finance: I recorded questions that had been sitting in email. With those visible, I followed transactions end to end, identified the actual failure point, and designed a sampled control.
 
 At Social Finance, the issue did not recur in the next 18 monthly tests. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-056,Tomas Quill,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"Associate/assistant roles with routine travel, records, and data-cleaning tasks; dashboard story is modest with minimal scale.",1,Concern limited to deepfake harms and explicitly sceptical of existential danger.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-056,Tomas Quill,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Associate/assistant roles with routine travel, records, and data-cleaning tasks; dashboard story is modest with minimal scale.",1,Concern limited to deepfake harms and explicitly sceptical of existential danger.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Tomas Quill
 
 RELEVANT EXPERIENCE
@@ -2498,7 +2498,7 @@ My update is that synthetic media creates immediate personal harms that law and 
 For the operating plan at Teach First: I used a simple issue log to keep exceptions from disappearing. I then documented lineage, rebuilt the measure from raw events, and removed unsupported historical comparisons.
 
 At Teach First, the corrected view changed the priority of 2 projects and survived an independent check. I shared the sequence with a colleague and asked them to test whether it was understandable."
-OPS-SYN-058,Jonah Farrow,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"Finance director title with a grant-reconciliation story yielding £8.2m trustee pack clarity, but CV bullets are vague, repetitive, and low-scale.",1,"Candidate explicitly disclaims existential risk, citing pricing fairness as a present-day distributional harm.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-058,Jonah Farrow,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Finance director title with a grant-reconciliation story yielding £8.2m trustee pack clarity, but CV bullets are vague, repetitive, and low-scale.",1,"Candidate explicitly disclaims existential risk, citing pricing fairness as a present-day distributional harm.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Jonah Farrow
 
 CAREER HISTORY
@@ -2530,7 +2530,7 @@ I no longer treat this as a minor quality issue: personalisation can become unfa
 For the operating plan at Imperial College London: I recorded questions that had been sitting in email. With those visible, I reconciled each award to a named deliverable and created an exceptions review.
 
 At Imperial College London, the next trustee pack explained £8.2m of restricted funds without manual reconstruction. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-060,Kian Trent,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"Coordinator/lead role with supportive tasks (agendas, decision logs); migration story is modest scale and framed as 'supported'.",1,Candidate explicitly limits concern to present-day reputational harm from AI notes and disclaims loss-of-control reasoning.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-060,Kian Trent,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Coordinator/lead role with supportive tasks (agendas, decision logs); migration story is modest scale and framed as 'supported'.",1,Candidate explicitly limits concern to present-day reputational harm from AI notes and disclaims loss-of-control reasoning.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Kian Trent
 
 RELEVANT EXPERIENCE
@@ -2554,7 +2554,7 @@ I came away convinced that seemingly administrative tools can create reputationa
 For the operating plan at Royal Albert Hall: I recorded questions that had been sitting in email. With those visible, I defined authoritative fields, sampled conflicts with users, and ran a reversible parallel period.
 
 At Royal Albert Hall, 1200 records moved with 0 unresolved exceptions documented for follow-up. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-072,Theo Dene,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,Coordinator/recruiter bullets are routine scorecard upkeep; the country-launch story has some results but thin detail on his own decisions.,1,"Candidate explicitly frames concern as current-product commercial incentives, stating it is not a shift toward advanced-AI catastrophe.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-072,Theo Dene,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,Coordinator/recruiter bullets are routine scorecard upkeep; the country-launch story has some results but thin detail on his own decisions.,1,"Candidate explicitly frames concern as current-product commercial incentives, stating it is not a shift toward advanced-AI catastrophe.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Theo Dene
 
 RELEVANT EXPERIENCE
@@ -2578,7 +2578,7 @@ For current products, commercial incentives can hide inside helpful interfaces. 
 For the operating plan at Goldman Sachs: I gathered the available information and kept owners and dates in one checklist. I then mapped payroll, legal, benefits and manager dependencies and escalated only genuinely irreversible choices.
 
 At Goldman Sachs, the first 60 hires started correctly and the operating guide was reused for the second location. I saved the checklist so the next recruiting cycle would start with clearer handoffs."
-OPS-SYN-089,Owen Arden,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant-level roles with routine tracker and travel admin; supplier story is brief and lacks decision detail or scale.,1,"Candidate explicitly rejects loss-of-control concerns, framing risk as present-day automation removing human help for vulnerable users.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-089,Owen Arden,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant-level roles with routine tracker and travel admin; supplier story is brief and lacks decision detail or scale.,1,"Candidate explicitly rejects loss-of-control concerns, framing risk as present-day automation removing human help for vulnerable users.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Owen Arden
 
 EXPERIENCE
@@ -2602,7 +2602,7 @@ The lesson I drew is that automation can remove human help when vulnerable users
 For the operating plan at University of Manchester: I confirmed the deadline with each contributor and updated the tracker. I then separated work that could be replaced from work tied to the supplier, then negotiated a controlled handoff.
 
 At University of Manchester, the critical service resumed in 8 days and the replacement stayed within the contingency. The process was reused once more without the same coordination gap."
-OPS-SYN-099,Joel Vale,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story has a result (24% under plan) but thin ownership; CV is process-maintenance, logs and room logistics without owned scope.",1,"Candidate explicitly disclaims existential risk, framing concern as present-day accessibility errors and responsible deployment.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-099,Joel Vale,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story has a result (24% under plan) but thin ownership; CV is process-maintenance, logs and room logistics without owned scope.",1,"Candidate explicitly disclaims existential risk, framing concern as present-day accessibility errors and responsible deployment.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Joel Vale
 
 EMPLOYMENT
@@ -2630,7 +2630,7 @@ I no longer treat this as a minor quality issue: errors fall hardest on users wi
 For the operating plan at King's College Hospital NHS Foundation Trust: I confirmed the deadline with each contributor and updated the tracker. I then ranked commitments by reversibility, protected the critical path, and wrote three choices for the sponsor.
 
 At King's College Hospital NHS Foundation Trust, the launch retained its core service while spend finished 24% below the original plan. The process was reused once more without the same coordination gap."
-OPS-SYN-071,Zoe Wren,Do not pass,Do not pass,Do not progress,2,"Impressiveness 1/5, below the bar of 3",1,"Duties are clerical (travel, reimbursements, chasing documents) and hardest-problem story was a plan prepared for a manager with no scale or results.",1,"Explicitly rejects catastrophic risk, citing only spam degrading forums as decision-relevant present-day harm.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-071,Zoe Wren,Do not pass,Do not pass,Do not progress,Filtered out,2,"Impressiveness 1/5, below the bar of 3",1,"Duties are clerical (travel, reimbursements, chasing documents) and hardest-problem story was a plan prepared for a manager with no scale or results.",1,"Explicitly rejects catastrophic risk, citing only spam degrading forums as decision-relevant present-day harm.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Zoe Wren
 
 EMPLOYMENT
