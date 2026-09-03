@@ -21,7 +21,7 @@ flowchart LR
 - **What the model does.** Reads the CV and two written answers with the rubric and the scoring scales in `prompt.txt`. Writes a one-sentence reason, then a 0 to 5 score, for each gate. Flags text that addresses the reviewer or tells it what to record.
 - **What the code does.** `decide()` in `screen.py`, twelve lines. A gate passes at 3 or more. Impressiveness is the hard gate. Score out of 10 is impressiveness plus safety motivation. Nothing is fitted or learned; the score is two rubric-anchored ratings added together.
 - **What triage does.** `triage()`, four lines. Filtered out: manipulation attempts, impressiveness 0 or 1, or impressiveness 2 with safety motivation 2 or less. Everyone else is in the review queue: all who passed the hard gate, plus near-misses who are clearly motivated. Nothing is deleted; filtered rows sit at the bottom of the UI and the spreadsheet, and the human can overturn any of them.
-- **What the human does.** Opens the queue, reads the model's one-line Why and two reasons for the top row, checks them against the application text if needed, clicks Agree or overrides, adds a note if they want, moves to the next. Decisions save as they go. Export gives the model's table with the human's columns filled in.
+- **What the human does.** Opens the queue, reads the model's one-line Why and two reasons for the top row, checks them against the application text if needed, clicks Progress or Do not progress (the model's recommendation is the filled button), adds a note if they want, moves to the next. Decisions save as they go. Export gives the model's table with the human's columns filled in.
 
 ## Run it
 
@@ -33,7 +33,9 @@ flowchart LR
         uv run app.py
 
 4. Open http://localhost:8000 and drop in a CSV with columns `Synthetic ID, Synthetic name, CV text, AI-risk view shift, Hardest problem`. Screening shows a progress bar; 85 applications take about a minute.
-5. Work through the queue. Keys: `j` `k` move, `a` agree with the model, `p` progress, `d` do not progress. Export when done.
+5. Work through the queue. Keys: `j` `k` move, `p` progress, `d` do not progress, `a` takes the model's recommendation. Export when done.
+
+Leave the terminal running while you review; if it stops, the page shows a red banner saying so.
 
 Runs are cached, so dropping the same file again is instant and only new rows cost anything; tick "Re-screen" to force a fresh pass. Earlier runs can be reopened from the dropdown, or directly at `http://localhost:8000/#set=<file name>`.
 

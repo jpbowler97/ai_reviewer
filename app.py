@@ -160,6 +160,8 @@ details{margin-top:10px}summary{cursor:pointer;font-weight:600}pre{white-space:p
 </style></head><body>
 <header><h1>Application screener</h1><span class="sub">The model screens every application against the rubric and explains each score. You decide.</span></header>
 <main>
+<div id="err" class="hidden" style="background:#fde2e2;border:1px solid #f5a5a5;border-radius:6px;padding:8px 12px;margin-bottom:10px"></div>
+<div id="toast" class="hidden" style="position:fixed;right:20px;bottom:20px;background:#2f855a;color:#fff;padding:10px 14px;border-radius:6px"></div>
 <section id="start">
   <div id="drop">Drop a CSV of applications here, or click to choose<br><span class="small muted">Columns: Synthetic ID, Synthetic name, CV text, AI-risk view shift, Hardest problem</span></div>
   <input type="file" id="file" accept=".csv" class="hidden">
@@ -175,29 +177,33 @@ details{margin-top:10px}summary{cursor:pointer;font-weight:600}pre{white-space:p
       <table id="queue"><thead><tr><th>#</th><th>Applicant</th><th>Model says</th><th>Score</th><th>Why</th><th>You</th></tr></thead><tbody></tbody></table>
       <details id="filtered"><summary></summary><table id="ftable"><thead><tr><th>Applicant</th><th>Model says</th><th>Score</th><th>Why</th><th>You</th></tr></thead><tbody></tbody></table></details>
     </div>
-    <div class="panel" id="detail"><p class="muted">Select a row. Keys: j / k move, a agree, p progress, d do not progress.</p></div>
+    <div class="panel" id="detail"><p class="muted">Select a row. Keys: j / k move, p progress, d do not progress, a agree with the model.</p></div>
   </div>
 </section>
 </main>
 <script>
 const $=s=>document.querySelector(s);let SET=null,ROWS=[],FIELDS=[],SEL=null;
+async function api(url,opts){let r;try{r=await fetch(url,opts)}catch(e){fail('Cannot reach the app. Is "uv run app.py" still running in your terminal?');throw e}
+ if(!r.ok){let m='';try{m=(await r.json()).detail}catch(e){m=r.statusText}fail(m);throw new Error(m)}return r.json()}
+function fail(m){const b=$('#err');b.textContent=m;b.classList.remove('hidden')}
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.remove('hidden');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.add('hidden'),2500)}
 const drop=$('#drop'),file=$('#file');
 drop.onclick=()=>file.click();
 ['dragenter','dragover'].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.add('over')}));
 ['dragleave','drop'].forEach(e=>drop.addEventListener(e,ev=>{ev.preventDefault();drop.classList.remove('over')}));
 drop.addEventListener('drop',ev=>upload(ev.dataTransfer.files[0]));file.onchange=()=>upload(file.files[0]);
 async function upload(f){if(!f)return;const fd=new FormData();fd.append('file',f);fd.append('rescreen',$('#rescreen').checked);
- const r=await fetch('/api/upload',{method:'POST',body:fd});const j=await r.json();if(!r.ok){alert(j.detail);return}
+ $('#err').classList.add('hidden');const j=await api('/api/upload',{method:'POST',body:fd});
  $('#progress').classList.remove('hidden');poll(j.set,j.total)}
-async function poll(name,total){const s=await (await fetch('/api/status/'+name)).json();
- if(s.status==='error'){alert('Screening failed: '+s.error);$('#progress').classList.add('hidden');return}
+async function poll(name,total){const s=await api('/api/status/'+name);
+ if(s.status==='error'){fail('Screening failed: '+s.error);$('#progress').classList.add('hidden');return}
  if(s.status==='running'){$('#ptext').textContent=`Screening ${s.done} of ${s.total} applications (one model call each)`;$('#bar div').style.width=(100*s.done/Math.max(1,s.total))+'%';setTimeout(()=>poll(name,total),700);return}
  $('#ptext').textContent='Done';$('#bar div').style.width='100%';openSet(name)}
-async function loadSets(){const j=await (await fetch('/api/sets')).json();$('#sets').innerHTML=j.sets.map(s=>`<option>${s}</option>`).join('')}
+async function loadSets(){const j=await api('/api/sets');$('#sets').innerHTML=j.sets.map(s=>`<option>${s}</option>`).join('')}
 $('#open').onclick=()=>openSet($('#sets').value);$('#back').onclick=()=>{$('#review').classList.add('hidden');$('#start').classList.remove('hidden');$('#progress').classList.add('hidden');loadSets()};
 $('#export').onclick=()=>location.href='/api/export/'+SET;
 function setHash(n){history.replaceState(null,'','#set='+n)}
-async function openSet(name){SET=name;setHash(name);const j=await (await fetch('/api/set/'+name)).json();ROWS=j.rows;FIELDS=j.fields;
+async function openSet(name){SET=name;setHash(name);$('#err').classList.add('hidden');const j=await api('/api/set/'+name);ROWS=j.rows;FIELDS=j.fields;
  $('#start').classList.add('hidden');$('#review').classList.remove('hidden');$('#setname').textContent=name;render();
  const first=ROWS.findIndex(r=>r.Queue==='Review'&&!r['Reviewer decision']);select(first>=0?first:0)}
 function tag(d){return d==='Progress'?'<span class="tag p">Progress</span>':d==='Do not progress'?'<span class="tag d">Do not progress</span>':d?`<span class="tag">${d}</span>`:''}
@@ -215,14 +221,14 @@ function select(i){SEL=i;const r=ROWS[i];if(!r)return;render();document.querySel
  <div class="row"><span class="score">${r['Score /10']}<span class="muted small">/10</span></span>${tag(r['Overall decision'])}<span class="muted">${r.Why}</span>${r.Flags?'<span class="tag f">'+r.Flags+'</span>':''}</div>
  <div class="gate"><span class="k">Impressiveness ${r['Impressiveness /5']}/5 <span class="muted small">(hard gate, pass at 3)</span></span><span>${r['Impressiveness reason']}</span>
  <span class="k">Safety motivation ${r['Safety /5']}/5 <span class="muted small">(adds to score)</span></span><span>${r['Safety reason']}</span></div>
- <div class="row"><b>Your decision</b><button class="ok" onclick="decide('${r['Overall decision']}')">Agree with model</button><button onclick="decide('Progress')">Progress</button><button onclick="decide('Do not progress')">Do not progress</button><span class="muted">${r['Reviewer decision']?'Recorded: '+r['Reviewer decision']:'not yet decided'}</span></div>
+ <div class="row"><b>Your decision</b>${['Progress','Do not progress'].map(d=>`<button class="${d===r['Overall decision']?(d==='Progress'?'ok':'no'):''}" onclick="decide('${d}')">${d}${d===r['Overall decision']?' &#10003; model':''}</button>`).join('')}<span class="muted">${r['Reviewer decision']?'Recorded: '+r['Reviewer decision']:'not yet decided. The filled button is the model\'s recommendation.'}</span></div>
  <textarea id="note" placeholder="Note (optional): what you checked, what you disagree with">${r['Reviewer note']||''}</textarea>
  <div class="row"><button onclick="next()">Next undecided &rarr;</button></div>
- ${FIELDS.map(f=>`<details ${f!=='CV text'?'open':''}><summary>${f}</summary><pre>${esc(r[f])}</pre></details>`).join('')}`}
+ ${FIELDS.map(f=>`<details open><summary>${f}</summary><pre>${esc(r[f])}</pre></details>`).join('')}`}
 function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
 async function decide(d){const r=ROWS[SEL];const note=$('#note').value;
- await fetch('/api/decision',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({set:SET,id:r['Synthetic ID'],decision:d,note})});
- r['Reviewer decision']=d;r['Reviewer note']=note;next()}
+ await api('/api/decision',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({set:SET,id:r['Synthetic ID'],decision:d,note})});
+ r['Reviewer decision']=d;r['Reviewer note']=note;toast(`Saved: ${r['Synthetic name']} \u2192 ${d}`);next()}
 function next(){const order=[...ROWS.filter(r=>r.Queue==='Review'),...ROWS.filter(r=>r.Queue!=='Review')];const cur=order.indexOf(ROWS[SEL]);
  const nxt=order.slice(cur+1).find(r=>!r['Reviewer decision'])||order.find(r=>!r['Reviewer decision']);select(nxt?ROWS.indexOf(nxt):SEL)}
 document.addEventListener('keydown',e=>{if($('#review').classList.contains('hidden')||e.target.tagName==='TEXTAREA')return;
