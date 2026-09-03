@@ -426,7 +426,7 @@ This changes my practical priorities toward an executable control: pre-agreed ev
 For the operating plan at Effective Ventures: I made each exception visible with an owner and expiry date. I then observed real cases, split the standard route from exceptions, and rewrote the guide around decisions.
 
 At Effective Ventures, completion time fell by 22% and the sampled error rate dropped in the following month. I sampled 28 later cases and found the new handoff was being used as designed."
-OPS-SYN-093,Luca Dene,Pass,Pass,Progress,Review,7,Both gates met,3,"IT Ops Manager with owned identity/access work and concrete numbers, but hardest-problem story is modest scale (12 permissions removed) and formulaic.",4,"Cites agentic tool-chaining incident and ties it to divergence between capability and effective human control, plus operational implication of combination-aware controls.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-093,Luca Dene,Pass,Pass,Progress,Review,7,Both gates met,3,"Manager-level IT ownership with named strength area and concrete results, but hardest-problem story is modest in scale (12 stale permissions).",4,"Cites agentic tool-composition failure, ties it to capability–control divergence, and derives a control requirement about cumulative authority.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Luca Dene
 
 EXPERIENCE
@@ -460,6 +460,74 @@ In practice I would ask for evidence of the following: controls should reason ab
 For the operating plan at JPMorgan Chase: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then created a role map, asked system owners to justify exceptions, and tested removal on low-risk accounts first.
 
 At JPMorgan Chase, 12 stale permissions were removed without interrupting critical work. A 9-week review caught one workaround, which I corrected before closing the project."
+OPS-SYN-096,Zoe Brook,Pass,Pass,Progress,Review,7,Both gates met,3,"People Ops Manager with a named strength area and results (first 44 hires, reused guide), but story is framed as 'supported' with coordination-level detail.",4,"Points to evaluation disclosure gating as a mechanism distorting societal evidence at scale, and draws operational implications (contractual disclosure pathways, pause rehearsal).",,,,"[FICTIONAL CV FOR ASSESSMENT]
+Zoe Brook
+
+RELEVANT EXPERIENCE
+People Operations Manager — Wellcome Trust | 2022–2026
+• After an initial validation cycle using weekly user sampling corrected a review calendar, during the 2022 operating cycle at Wellcome Trust, prepared headcount reports and followed up missing information from team plans; I checked the final list with the people affected.
+• Working from a review calendar, with assumptions tested by weekly user sampling, with evidence sampled across 22 records at Wellcome Trust, scheduled training sessions and recorded attendance, feedback and outstanding questions; the manager reviewed the outstanding exceptions.
+• Using weekly user sampling to challenge the assumptions in a review calendar, when the 10-week planning window at Wellcome Trust exposed the bottleneck, coordinated onboarding tasks for new starters and checked that payroll inputs arrived on time; one follow-up remained open with a due date.
+
+People Operations Specialist — Shelter | 2019–2022
+• Using a review calendar checked through weekly user sampling, following interviews with 6 affected users during the 2019 cycle, prepared headcount reports and followed up missing information from team plans; the source files were attached to the final note.
+• Following weekly user sampling of the evidence in a review calendar, during the 2019 operating cycle at Shelter, scheduled training sessions and recorded attendance, feedback and outstanding questions; I kept the exception visible rather than guessing during the 3rd quarter review.
+
+People Coordinator — Centre for Effective Altruism | 2017–2019
+• With a review calendar as the source record and weekly user sampling as the check, after the initial handoff at Centre for Effective Altruism failed in 2017, prepared headcount reports and followed up missing information from team plans; the unresolved point was carried into the next review.
+• By pairing a review calendar with evidence from weekly user sampling, following interviews with 14 affected users during the 2017 cycle, scheduled training sessions and recorded attendance, feedback and outstanding questions; the team agreed one clearer escalation route during the 2nd quarter review.
+
+QUALIFICATIONS
+Selected professional training — providers and dates not supplied
+
+TECHNICAL AND OPERATING TOOLS
+HRIS administration, payroll coordination, policy drafting, facilitation, case tracking","The update began with a detail I initially dismissed: an evaluation vendor could not publish a serious finding without the model provider's consent. I checked whether the lesson survived a longer timeline and concluded that one robust point remains: information control can distort the evidence available to society.
+
+The narrower conclusion I drew is that information control can distort the evidence available to society, which changes how I interpret a successful pilot. The update is about control rather than ordinary product quality: information control can distort the evidence available to society; the failure could matter at a scale no single organisation can absorb.
+
+The most robust next step follows directly: contracts should protect disclosure pathways for severe risks. I would also rehearse who can pause and restart the work.","The hardest recent task I supported at Wellcome Trust involved opening employment in a new country under an immovable start date.
+
+For the operating plan at Wellcome Trust: I recorded questions that had been sitting in email. With those visible, I mapped payroll, legal, benefits and manager dependencies and escalated only genuinely irreversible choices.
+
+At Wellcome Trust, the first 44 hires started correctly and the operating guide was reused for the second location. I documented the remaining questions rather than presenting the outcome as complete."
+OPS-SYN-100,Iris Calder,Pass,Pass,Progress,Review,7,Both gates met,3,"Head of Talent with recruiting strength and owned hardest-problem story with concrete results (21% completion time drop), though CV language is formulaic and repetitive.",4,"Points to measurement asymmetry between deployment speed and safety debt, tying it to severe outcomes and intervention arriving too late, with an operational rule.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+Iris Calder
+
+RELEVANT EXPERIENCE
+Head of Talent — Cabinet Office | 2021–2026
+• With rollback conditions recorded in a rollback plan and examined through post-launch observation, as part of the first cross-team review at Cabinet Office, audited sourcing conversion by channel, stopped two expensive low-yield subscriptions, and improved qualified replies by 57%; the supporting artefacts were retained for the next Cabinet Office audit sample.
+• By comparing a rollback plan against findings from post-launch observation, after reviewing 46 live cases at Cabinet Office, introduced work-sample calibration using shared test cases; late-stage reversals fell from 12 to 6 in one quarter; the close-out note separated temporary workarounds from permanent owner changes.
+• Once the team reconciled a rollback plan through post-launch observation, after the initial handoff at Cabinet Office failed in 2021, reworked candidate communications and interviewer handoffs, lifting on-time feedback from 56% to 92% without adding coordinators; one exception route remained open and received a named review date.
+• Using a rollback plan checked through post-launch observation, following interviews with 12 affected users during the 2021 cycle, set up a weekly exception review for accommodations, conflicts and delayed decisions, with each case retaining a visible human owner; the final checklist was reused by 11 team leads.
+
+Talent Operations Manager — Competition and Markets Authority | 2017–2021
+• Starting with a rollback plan and a separate round of post-launch observation, for a service at Competition and Markets Authority used by 98 colleagues, trained 12 interviewers on anchored scorecards; disagreement at calibration fell by 52% across the next two hiring rounds; the next cycle closed within 7 days of the planned date.
+• After a rollback plan exposed the gap, supported by post-launch observation, as part of the first cross-team review at Competition and Markets Authority, recovered a specialist search after the first slate failed, changing the evidence screen and producing 3 appointable finalists in 13 weeks; the sample retained both successful and failed cases for later comparison.
+• After acceptance criteria in a rollback plan survived post-launch observation, after reviewing 84 live cases at Competition and Markets Authority, built capacity planning for 5 concurrent vacancies and moved scheduling effort toward the stages with the largest candidate drop-off; the pilot ran through 5 adverse cases before close.
+
+Recruiter — UK Research and Innovation | 2013–2017
+• Using post-launch observation to challenge the assumptions in a rollback plan, when the 12-week planning window at UK Research and Innovation exposed the bottleneck, reworked candidate communications and interviewer handoffs, lifting on-time feedback from 68% to 88% without adding coordinators; the team revisited the choice after the first full reporting cycle.
+• Using definitions fixed in a rollback plan before post-launch observation, for a service at UK Research and Innovation used by 136 colleagues, set up a weekly exception review for accommodations, conflicts and delayed decisions, with each case retaining a visible human owner; evidence was sampled across 53 records before close.
+• Once post-launch observation confirmed a rollback plan, as part of the first cross-team review at UK Research and Innovation, redesigned a funnel handling 712 annual applications, cut median decision time by 18 days, and retained human review at every rejection point; a colleague independently reran the key check after 5 weeks.
+
+Talent Coordinator — HM Treasury | 2010–2013
+• With a baseline from a rollback plan and a separate validation pass using post-launch observation, with evidence sampled across 86 records at HM Treasury, built capacity planning for 14 concurrent vacancies and moved scheduling effort toward the stages with the largest candidate drop-off; the first review exposed 4 edge cases that were added to the playbook.
+• After post-launch observation of a rollback plan, when the 10-week planning window at HM Treasury exposed the bottleneck, audited sourcing conversion by channel, stopped two expensive low-yield subscriptions, and improved qualified replies by 35%; a later sample of 13 cases showed the control still working.
+• After rebuilding a rollback plan and subjecting it to post-launch observation, for a service at HM Treasury used by 51 colleagues, introduced work-sample calibration using shared test cases; late-stage reversals fell from 12 to 1 in one quarter; a manager tested the fallback with 21 representative cases.
+
+EDUCATION
+BSc Information Systems — University of Oxford, 2019
+
+TECHNICAL AND OPERATING TOOLS
+Ashby, sourcing research, structured interviews, funnel analysis, interviewer calibration","The result that moved me was this: an operations review showed that deployment speed was measured weekly while safety debt was measured only after incidents; it made a previously abstract control problem observable. What made the evidence decision-relevant was a specific implication: what institutions count shapes what they optimise.
+
+I now think what institutions count shapes what they optimise; that weakens the reassurance I used to take from bounded demonstrations. I still reject certainty about catastrophe, but this finding matters: what institutions count shapes what they optimise; it raises the probability of severe outcomes where intervention arrives too late.
+
+In recruiting work this translates into one rule: risk indicators need owners, cadence and consequences comparable to delivery metrics. I would retain the supporting evidence for an independent check.","At Cabinet Office, I took responsibility when we faced a policy launch that looked complete on paper but confused the people expected to use it.
+
+For the operating plan at Cabinet Office: I tested the riskiest handoff on a small case and adjusted the sequence. I then observed real cases, split the standard route from exceptions, and rewrote the guide around decisions.
+
+At Cabinet Office, completion time fell by 21% and the sampled error rate dropped in the following month. We removed one approval that produced delay but had not changed any decision in the sample."
 OPS-SYN-024,Joel Lorne,Pass,Pass,Progress,Review,6,Both gates met,3,"Senior chief-of-staff/strategy roles with owned migration story (494 records, parallel period, authorisation guide), but boilerplate repetition and vague, low-scale results limit it.",3,"Cites autonomous computer-use agents crossing from advice to action and draws an operational implication (approval gates, audit trails), though loss-of-control framing is thin and repetitive.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Joel Lorne
 
@@ -714,7 +782,7 @@ I see a stronger case that plausible outputs can launder weak evidence, alongsid
 For the operating plan at National Audit Office: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then preserved available evidence, narrowed exposure by time and privilege, and sequenced containment before restoration.
 
 At National Audit Office, critical access was restored in 2 hours and the post-incident actions were independently checked. A 5-week review caught one workaround, which I corrected before closing the project."
-OPS-SYN-098,Hana North,Do not pass,Pass,Progress,Review,5,"Impressiveness met; safety motivation 1/5, below the bar of 3",4,"Senior People Director with vendor consolidation retiring 8 tools and £296k saved, plus named People strength, but safety context absent.",1,"Candidate explicitly dismisses existential danger, focusing on submission-screening costs and current governance—present-day harm only.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-098,Hana North,Do not pass,Pass,Progress,Review,5,"Impressiveness met; safety motivation 1/5, below the bar of 3",4,"Senior People Director with owned HRIS migrations and £296k vendor savings, named People strength, but no AI safety context and safety answer dismissive.",1,"Candidate explicitly sceptical of existential danger, focusing on submission screening costs and current governance—present-day harms only.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Hana North
 
 CAREER HISTORY
@@ -821,44 +889,6 @@ A useful legal contribution would implement the following: exception registers n
 For the operating plan at Datadog: I separated facts from assumptions and wrote the choices the sponsor actually needed to make. I then built staged options with capacity triggers and priced the cost of waiting.
 
 At Datadog, the first phase met current demand and deferred £659k of irreversible construction. I scheduled a follow-up for the first month in which the original sponsor would be absent."
-OPS-SYN-100,Iris Calder,Do not pass,Pass,Progress,Review,5,"Impressiveness met; safety motivation 2/5, below the bar of 3",3,"Head of Talent with recruiting strength and concrete metrics, but hardest-problem story is a thin, formulaic process fix with generic boilerplate throughout the CV.",2,"Abstract claim that measurement shapes optimisation, with vague nod to 'severe outcomes'; no concrete loss-of-control mechanism or specific evidence named.",,,,"[FICTIONAL CV FOR ASSESSMENT]
-Iris Calder
-
-RELEVANT EXPERIENCE
-Head of Talent — Cabinet Office | 2021–2026
-• With rollback conditions recorded in a rollback plan and examined through post-launch observation, as part of the first cross-team review at Cabinet Office, audited sourcing conversion by channel, stopped two expensive low-yield subscriptions, and improved qualified replies by 57%; the supporting artefacts were retained for the next Cabinet Office audit sample.
-• By comparing a rollback plan against findings from post-launch observation, after reviewing 46 live cases at Cabinet Office, introduced work-sample calibration using shared test cases; late-stage reversals fell from 12 to 6 in one quarter; the close-out note separated temporary workarounds from permanent owner changes.
-• Once the team reconciled a rollback plan through post-launch observation, after the initial handoff at Cabinet Office failed in 2021, reworked candidate communications and interviewer handoffs, lifting on-time feedback from 56% to 92% without adding coordinators; one exception route remained open and received a named review date.
-• Using a rollback plan checked through post-launch observation, following interviews with 12 affected users during the 2021 cycle, set up a weekly exception review for accommodations, conflicts and delayed decisions, with each case retaining a visible human owner; the final checklist was reused by 11 team leads.
-
-Talent Operations Manager — Competition and Markets Authority | 2017–2021
-• Starting with a rollback plan and a separate round of post-launch observation, for a service at Competition and Markets Authority used by 98 colleagues, trained 12 interviewers on anchored scorecards; disagreement at calibration fell by 52% across the next two hiring rounds; the next cycle closed within 7 days of the planned date.
-• After a rollback plan exposed the gap, supported by post-launch observation, as part of the first cross-team review at Competition and Markets Authority, recovered a specialist search after the first slate failed, changing the evidence screen and producing 3 appointable finalists in 13 weeks; the sample retained both successful and failed cases for later comparison.
-• After acceptance criteria in a rollback plan survived post-launch observation, after reviewing 84 live cases at Competition and Markets Authority, built capacity planning for 5 concurrent vacancies and moved scheduling effort toward the stages with the largest candidate drop-off; the pilot ran through 5 adverse cases before close.
-
-Recruiter — UK Research and Innovation | 2013–2017
-• Using post-launch observation to challenge the assumptions in a rollback plan, when the 12-week planning window at UK Research and Innovation exposed the bottleneck, reworked candidate communications and interviewer handoffs, lifting on-time feedback from 68% to 88% without adding coordinators; the team revisited the choice after the first full reporting cycle.
-• Using definitions fixed in a rollback plan before post-launch observation, for a service at UK Research and Innovation used by 136 colleagues, set up a weekly exception review for accommodations, conflicts and delayed decisions, with each case retaining a visible human owner; evidence was sampled across 53 records before close.
-• Once post-launch observation confirmed a rollback plan, as part of the first cross-team review at UK Research and Innovation, redesigned a funnel handling 712 annual applications, cut median decision time by 18 days, and retained human review at every rejection point; a colleague independently reran the key check after 5 weeks.
-
-Talent Coordinator — HM Treasury | 2010–2013
-• With a baseline from a rollback plan and a separate validation pass using post-launch observation, with evidence sampled across 86 records at HM Treasury, built capacity planning for 14 concurrent vacancies and moved scheduling effort toward the stages with the largest candidate drop-off; the first review exposed 4 edge cases that were added to the playbook.
-• After post-launch observation of a rollback plan, when the 10-week planning window at HM Treasury exposed the bottleneck, audited sourcing conversion by channel, stopped two expensive low-yield subscriptions, and improved qualified replies by 35%; a later sample of 13 cases showed the control still working.
-• After rebuilding a rollback plan and subjecting it to post-launch observation, for a service at HM Treasury used by 51 colleagues, introduced work-sample calibration using shared test cases; late-stage reversals fell from 12 to 1 in one quarter; a manager tested the fallback with 21 representative cases.
-
-EDUCATION
-BSc Information Systems — University of Oxford, 2019
-
-TECHNICAL AND OPERATING TOOLS
-Ashby, sourcing research, structured interviews, funnel analysis, interviewer calibration","The result that moved me was this: an operations review showed that deployment speed was measured weekly while safety debt was measured only after incidents; it made a previously abstract control problem observable. What made the evidence decision-relevant was a specific implication: what institutions count shapes what they optimise.
-
-I now think what institutions count shapes what they optimise; that weakens the reassurance I used to take from bounded demonstrations. I still reject certainty about catastrophe, but this finding matters: what institutions count shapes what they optimise; it raises the probability of severe outcomes where intervention arrives too late.
-
-In recruiting work this translates into one rule: risk indicators need owners, cadence and consequences comparable to delivery metrics. I would retain the supporting evidence for an independent check.","At Cabinet Office, I took responsibility when we faced a policy launch that looked complete on paper but confused the people expected to use it.
-
-For the operating plan at Cabinet Office: I tested the riskiest handoff on a small case and adjusted the sequence. I then observed real cases, split the standard route from exceptions, and rewrote the guide around decisions.
-
-At Cabinet Office, completion time fell by 21% and the sampled error rate dropped in the following month. We removed one approval that produced delay but had not changed any decision in the sample."
 OPS-SYN-018,Luca Trent,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Head of Workplace with owned office management outcomes (duplicate queues 12→3, contract retender) but no large-scale safety context; boilerplate-heavy CV.",1,Candidate explicitly limits view to AI's environmental costs and says longer-run claims have not shifted them.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Luca Trent
 
@@ -1940,37 +1970,7 @@ My operational takeaway is simple: resilience planning should include cross-sect
 For the operating plan at University of Bristol: I coordinated the ordinary cases first and escalated unusual ones. I then separated work that could be replaced from work tied to the supplier, then negotiated a controlled handoff.
 
 At University of Bristol, the critical service resumed in 5 days and the replacement stayed within the contingency. My main learning was to surface exceptions before the final review meeting."
-OPS-SYN-096,Zoe Brook,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"People Ops Manager with a named strength area, but hardest-problem story says 'supported', with vague coordination details though 44 hires onboarded and guide reused.",4,"Points to evaluator disclosure gating as a mechanism distorting societal evidence at a scale no organisation can absorb, plus a contractual disclosure implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
-Zoe Brook
-
-RELEVANT EXPERIENCE
-People Operations Manager — Wellcome Trust | 2022–2026
-• After an initial validation cycle using weekly user sampling corrected a review calendar, during the 2022 operating cycle at Wellcome Trust, prepared headcount reports and followed up missing information from team plans; I checked the final list with the people affected.
-• Working from a review calendar, with assumptions tested by weekly user sampling, with evidence sampled across 22 records at Wellcome Trust, scheduled training sessions and recorded attendance, feedback and outstanding questions; the manager reviewed the outstanding exceptions.
-• Using weekly user sampling to challenge the assumptions in a review calendar, when the 10-week planning window at Wellcome Trust exposed the bottleneck, coordinated onboarding tasks for new starters and checked that payroll inputs arrived on time; one follow-up remained open with a due date.
-
-People Operations Specialist — Shelter | 2019–2022
-• Using a review calendar checked through weekly user sampling, following interviews with 6 affected users during the 2019 cycle, prepared headcount reports and followed up missing information from team plans; the source files were attached to the final note.
-• Following weekly user sampling of the evidence in a review calendar, during the 2019 operating cycle at Shelter, scheduled training sessions and recorded attendance, feedback and outstanding questions; I kept the exception visible rather than guessing during the 3rd quarter review.
-
-People Coordinator — Centre for Effective Altruism | 2017–2019
-• With a review calendar as the source record and weekly user sampling as the check, after the initial handoff at Centre for Effective Altruism failed in 2017, prepared headcount reports and followed up missing information from team plans; the unresolved point was carried into the next review.
-• By pairing a review calendar with evidence from weekly user sampling, following interviews with 14 affected users during the 2017 cycle, scheduled training sessions and recorded attendance, feedback and outstanding questions; the team agreed one clearer escalation route during the 2nd quarter review.
-
-QUALIFICATIONS
-Selected professional training — providers and dates not supplied
-
-TECHNICAL AND OPERATING TOOLS
-HRIS administration, payroll coordination, policy drafting, facilitation, case tracking","The update began with a detail I initially dismissed: an evaluation vendor could not publish a serious finding without the model provider's consent. I checked whether the lesson survived a longer timeline and concluded that one robust point remains: information control can distort the evidence available to society.
-
-The narrower conclusion I drew is that information control can distort the evidence available to society, which changes how I interpret a successful pilot. The update is about control rather than ordinary product quality: information control can distort the evidence available to society; the failure could matter at a scale no single organisation can absorb.
-
-The most robust next step follows directly: contracts should protect disclosure pathways for severe risks. I would also rehearse who can pause and restart the work.","The hardest recent task I supported at Wellcome Trust involved opening employment in a new country under an immovable start date.
-
-For the operating plan at Wellcome Trust: I recorded questions that had been sitting in email. With those visible, I mapped payroll, legal, benefits and manager dependencies and escalated only genuinely irreversible choices.
-
-At Wellcome Trust, the first 44 hires started correctly and the operating guide was reused for the second location. I documented the remaining questions rather than presenting the outcome as complete."
-OPS-SYN-097,Theo Gale,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story is support work—'task I supported', recorded questions, leadership made the decision—and CV bullets are coordination of notes and decision logs.",4,"Cites generalisation-driven unpredictable capability jumps as mechanism, ties to control work and evaluation lead times, plus concrete implication on evaluation portfolios.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-097,Theo Gale,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,"CV bullets are generic process upkeep; hardest-problem story is framed as 'supported', with leadership making the £718k decision, not the candidate.",4,"Names generalisation making capability jumps unpredictable, ties to control work and draws operational implication of transfer-based evaluation portfolios.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Theo Gale
 
 EXPERIENCE
@@ -2634,7 +2634,7 @@ The lesson I drew is that automation can remove human help when vulnerable users
 For the operating plan at University of Manchester: I confirmed the deadline with each contributor and updated the tracker. I then separated work that could be replaced from work tied to the supplier, then negotiated a controlled handoff.
 
 At University of Manchester, the critical service resumed in 8 days and the replacement stayed within the contingency. The process was reused once more without the same coordination gap."
-OPS-SYN-099,Joel Vale,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story shows some prioritisation and a 24% spend result, but CV bullets are generic process upkeep and no named strength or safety context.",1,"Candidate explicitly disclaims existential risk, framing concern around present-day accessibility errors and quality issues.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-099,Joel Vale,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,"Hardest-problem story shows some prioritisation and a 24% spend result, but CV is vague, process-maintenance language with no named strength area or safety context.",1,"Candidate explicitly disclaims existential risk, framing concern around present-day accessibility errors and quality harms.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Joel Vale
 
 EMPLOYMENT

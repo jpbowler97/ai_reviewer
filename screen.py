@@ -103,9 +103,22 @@ def screen_one(client: anthropic.Anthropic, row: dict) -> dict:
 
 
 def load_cache(path: Path) -> dict:
+    """Read cached model answers. Skips any line that is not valid JSON (an interrupted write); last record per ID wins."""
+    cache: dict = {}
     if not path.exists():
-        return {}
-    return {json.loads(l)[ID]: json.loads(l) for l in path.read_text().splitlines() if l.strip()}
+        return cache
+    skipped = 0
+    for line in path.read_text().splitlines():
+        if not line.strip():
+            continue
+        try:
+            rec = json.loads(line)
+            cache[rec[ID]] = rec
+        except (json.JSONDecodeError, KeyError):
+            skipped += 1
+    if skipped:
+        print(f"  warning: skipped {skipped} unreadable line(s) in {path.name}; those candidates will be re-screened", file=sys.stderr)
+    return cache
 
 
 def run(rows: list[dict], out: Path, rerun: bool, progress=None) -> list[dict]:

@@ -116,6 +116,8 @@ async def upload(file: UploadFile = File(...), rescreen: bool = Form(False)):
     if missing:
         raise HTTPException(400, f"CSV is missing columns: {missing}. Needed: {need}")
     name = Path(file.filename).stem
+    if JOBS.get(name, {}).get("status") == "running":
+        raise HTTPException(409, f"{name} is already being screened. Wait for the progress bar to finish.")
     UPLOADS.mkdir(parents=True, exist_ok=True)
     (UPLOADS / f"{name}.csv").write_text(text, encoding="utf-8")
     JOBS[name] = {"status": "running", "done": 0, "total": len(rows)}
