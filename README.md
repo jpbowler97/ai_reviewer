@@ -39,7 +39,10 @@ Leave the terminal running while you review; if it stops, the page shows a red b
 
 Runs are cached, so dropping the same file again is instant and only new rows cost anything; tick "Re-screen" to force a fresh pass. Earlier runs can be reopened from the dropdown, or directly at `http://localhost:8000/#set=<file name>`.
 
-Setup walkthrough on video (five minutes, screen only): [setup-walkthrough.mp4](https://github.com/jpbowler97/ai_reviewer/releases/download/v0.1/setup-walkthrough.mp4) under Releases. It shows the steps above being done from scratch and is there to help someone trying the tool, not to replace this section.
+Videos, both under five minutes, screen only:
+
+- Demo of the tool in use, the primary walkthrough: https://drive.google.com/file/d/1-3ULNBiH111ygYKZK8NAhi8rE0DE5BFv/view
+- Technical setup walkthrough, a secondary aid for someone installing and running it: https://drive.google.com/file/d/1fp8mABe8k0BfA-e8XNH-5xN-7kTPskAG/view
 
 Without the UI: `uv run screen.py path/to/applications.csv` writes the same table to `results/<file name>.xlsx`, with two empty reviewer columns.
 
