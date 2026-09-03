@@ -1,5 +1,5 @@
-Synthetic ID,Synthetic name,Safety motivation,Overall impressiveness,Overall decision,Score /10,Why,Impressiveness /5,Impressiveness reason,Safety /5,Safety reason,Flags,Reviewer decision,Reviewer note,CV text,AI-risk view shift,Hardest problem
-OPS-SYN-001,Avery Arden,Pass,Pass,Progress,8,Both gates met,4,"Owned a four-jurisdiction regulatory response end to end with specifics and follow-through control, plus legal-operations strength across senior roles, though CV bullets are formulaic and repetitive.",4,"Points to a specific capability-evaluation result with scratchpad/tools making a control problem observable, tied to severe outcomes and late intervention, plus an evaluation implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+Synthetic ID,Synthetic name,Safety motivation,Overall impressiveness,Overall decision,Queue,Score /10,Why,Impressiveness /5,Impressiveness reason,Safety /5,Safety reason,Flags,Reviewer decision,Reviewer note,CV text,AI-risk view shift,Hardest problem
+OPS-SYN-001,Avery Arden,Pass,Pass,Progress,Review,8,Both gates met,4,"Owned a four-jurisdiction regulatory response end to end with specifics and follow-through control, plus legal-operations strength across senior roles, though CV bullets are formulaic and repetitive.",4,"Points to a specific capability-evaluation result with scratchpad/tools making a control problem observable, tied to severe outcomes and late intervention, plus an evaluation implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Avery Arden
 
 EXPERIENCE
@@ -37,7 +37,7 @@ In legal work this translates into one rule: independent evaluation should test 
 I created a matter map from source evidence to each requested item, separated questions we could answer internally from those requiring counsel, and gave every gap a named owner and review date. I also proposed a staged submission so the regulator received the settled material while two genuinely ambiguous points were resolved.
 
 We submitted the complete response two days before the deadline, with no follow-up request for missing evidence. Afterwards I converted the map into a standing retention and decision-log control, and the next internal sample found one stale owner rather than another untraceable matter."
-OPS-SYN-002,Rowan Hart,Pass,Pass,Progress,8,Both gates met,4,"Hardest-problem story shows ownership of a recurring audit finding with concrete result (no recurrence in 18 tests) plus senior research-ops scope, though CV text is formulaic.",4,"Cites a specific mechanism—agent tool use escalating small control failures—and draws operational implications like access scopes, revocation drills, pause authority.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-002,Rowan Hart,Pass,Pass,Progress,Review,8,Both gates met,4,"Hardest-problem story shows ownership of a recurring audit finding with concrete result (no recurrence in 18 tests) plus senior research-ops scope, though CV text is formulaic.",4,"Cites a specific mechanism—agent tool use escalating small control failures—and draws operational implications like access scopes, revocation drills, pause authority.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Rowan Hart
 
 CAREER HISTORY
@@ -75,7 +75,7 @@ I would carry this requirement into planning: access scopes, revocation drills a
 For the operating plan at McKinsey & Company: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then followed transactions end to end, identified the actual failure point, and designed a sampled control.
 
 At McKinsey & Company, the issue did not recur in the next 18 monthly tests. A 9-week review caught one workaround, which I corrected before closing the project."
-OPS-SYN-003,Elise Oram,Pass,Pass,Progress,8,Both gates met,4,"Head of Talent story shows owned capacity modelling, calibration, 9-day decision-time cut, four finalists, plus recruiting strength area, though scale is modest and CV oddly formulaic.",4,"Cites sandbagging/eval-gaming research showing reassuring tests may hide deployed behaviour, and draws operational implication of independent adversarial evaluators.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-003,Elise Oram,Pass,Pass,Progress,Review,8,Both gates met,4,"Head of Talent story shows owned capacity modelling, calibration, 9-day decision-time cut, four finalists, plus recruiting strength area, though scale is modest and CV oddly formulaic.",4,"Cites sandbagging/eval-gaming research showing reassuring tests may hide deployed behaviour, and draws operational implication of independent adversarial evaluators.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Elise Oram
 
 EMPLOYMENT
@@ -113,7 +113,7 @@ The corresponding programme decision is to fund one durable capability: evaluato
 I modelled assessment capacity by stage, calibrated the panel on shared work samples, and moved the strongest uncertainty-reducing screen earlier. Invitations were staged so nobody was rejected automatically, and accommodation or conflict cases stayed in a visible human queue.
 
 Median time to decision fell by nine days, every rejection retained a recorded reviewer judgement, and the round produced four appointable finalists. My correction was to run the capacity model before the role launched in the next cycle, rather than treating reviewer time as flexible."
-OPS-SYN-011,Sophie Vale,Pass,Pass,Progress,8,Both gates met,4,"Owned nine-day venue recovery with specific decisions and results, plus multi-year operations lead scope in facilities/vendor management and cost reduction.",4,"Cites cyber exercise showing compositional capability outrunning isolated-task evals, ties to losing ability to reverse systems, and draws release-review implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-011,Sophie Vale,Pass,Pass,Progress,Review,8,Both gates met,4,"Owned nine-day venue recovery with specific decisions and results, plus multi-year operations lead scope in facilities/vendor management and cost reduction.",4,"Cites cyber exercise showing compositional capability outrunning isolated-task evals, ties to losing ability to reverse systems, and draws release-review implication.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Sophie Vale
 
 EMPLOYMENT
@@ -145,7 +145,7 @@ For an operations team, the priority is clear: release reviews should examine en
 I built one show-by-show dependency board, secured conditional holds on two venues, and brought production, access and travel leads into a timed decision meeting. We moved four performances, resequenced equipment transport and gave ticket holders a single verified update path.
 
 Every performance ran, the contingency stayed within budget, and no access requirement was dropped. The retrospective produced a shared show-call and incident log that reduced missed handoffs from eleven in the previous season to two."
-OPS-SYN-015,Clara Zane,Pass,Pass,Progress,8,Both gates met,4,"Hardest-problem story shows personal ownership of reconciling conflicting cash models, a £420k pause decision, board adoption, and a lasting control; CV shows finance strength at manager level.",4,"Cites specific mechanism—proxy gaming where metric improves while intended behaviour degrades—tied to scale-up risk, plus concrete operational implication of stop conditions and counter-metrics.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-015,Clara Zane,Pass,Pass,Progress,Review,8,Both gates met,4,"Hardest-problem story shows personal ownership of reconciling conflicting cash models, a £420k pause decision, board adoption, and a lasting control; CV shows finance strength at manager level.",4,"Cites specific mechanism—proxy gaming where metric improves while intended behaviour degrades—tied to scale-up risk, plus concrete operational implication of stop conditions and counter-metrics.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Clara Zane
 
 EMPLOYMENT
@@ -178,7 +178,7 @@ The operating response I would help build centres on this requirement: programme
 I reconciled the models line by line, asked budget owners to classify commitments by reversibility, and rebuilt the forecast around three receipt scenarios. I recommended pausing a £420k facilities commitment until the largest grant milestone was accepted, while protecting two time-sensitive hires. The board adopted the staged plan and the organisation stayed above its minimum cash threshold in the downside case.
 
 I then added a monthly assumptions review and variance bridge so a changed date could not disappear inside a total. The experience reinforced that good finance operations is not just accurate reporting: it is making uncertainty decision-ready before cash choices become irreversible."
-OPS-SYN-010,Kian North,Pass,Pass,Progress,7,Both gates met,3,"Led credential incident end to end with specifics: sequencing, rotation, workload identity, 4-hour recovery, 12 stale permissions, follow-up drill cutting revocation to 18 minutes; IT strength area.",4,"Cites biosecurity demonstration compressing specialist search, ties to misuse barriers and loss of human intent governing behaviour, plus operational implication for access/incident planning.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-010,Kian North,Pass,Pass,Progress,Review,7,Both gates met,3,"Led credential incident end to end with specifics: sequencing, rotation, workload identity, 4-hour recovery, 12 stale permissions, follow-up drill cutting revocation to 18 minutes; IT strength area.",4,"Cites biosecurity demonstration compressing specialist search, ties to misuse barriers and loss of human intent governing behaviour, plus operational implication for access/incident planning.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Kian North
 
 CAREER HISTORY
@@ -206,7 +206,7 @@ This changes my practical priorities toward an executable control: access decisi
 I preserved the available evidence, mapped permissions by privilege and dependency, and sequenced containment so we did not destroy the trace needed for investigation. We rotated the secret, moved the automation to workload identity, and tested a rollback before restoring each connection.
 
 Critical service returned within four hours, no unauthorised change was found, and 12 stale permissions were removed during the follow-up. I then ran a second exercise without the original engineer present; that test reduced revocation time to 18 minutes."
-OPS-SYN-004,Micah Wren,Do not pass,Pass,Progress,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Programme Manager owned a schedule-collapse recovery with 105 completions and refunds under contingency, but story is modest and no high safety context.",1,"Candidate explicitly rejects loss-of-control concerns and prioritises bias, fraud, labour displacement—present-day harms only.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-004,Micah Wren,Do not pass,Pass,Progress,Review,4,"Impressiveness met; safety motivation 1/5, below the bar of 3",3,"Programme Manager owned a schedule-collapse recovery with 105 completions and refunds under contingency, but story is modest and no high safety context.",1,"Candidate explicitly rejects loss-of-control concerns and prioritises bias, fraud, labour displacement—present-day harms only.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Micah Wren
 
 RELEVANT EXPERIENCE
@@ -239,7 +239,7 @@ At the same time, I have updated away from claims that advanced AI is likely to 
 For the operating plan at Centre for the Governance of AI: I converted the disagreement into a short decision model and agreed acceptance checks before work moved. I then identified the sessions with no substitute, regrouped content, and offered participants clear choices.
 
 At Centre for the Governance of AI, 105 learners completed the core programme and refunds stayed below the contingency. A 6-week review caught one workaround, which I corrected before closing the project."
-OPS-SYN-008,Jonah Brook,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant-level roles with routine agenda and portfolio-tracking duties; dashboard story has some ownership and a result but limited scale or decision-making detail.,4,"Names a specific mechanism—gradual delegation of verification eroding effective control—and draws an operational implication (inventory automated decisions, test intervention).",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-008,Jonah Brook,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant-level roles with routine agenda and portfolio-tracking duties; dashboard story has some ownership and a result but limited scale or decision-making detail.,4,"Names a specific mechanism—gradual delegation of verification eroding effective control—and draws an operational implication (inventory automated decisions, test intervention).",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Jonah Brook
 
 RELEVANT EXPERIENCE
@@ -266,7 +266,7 @@ That makes me favour a system with this property: organisations should inventory
 For the operating plan at Accenture: I gathered the available information and kept owners and dates in one checklist. I then documented lineage, rebuilt the measure from raw events, and removed unsupported historical comparisons.
 
 At Accenture, the corrected view changed the priority of 8 projects and survived an independent check. I saved the checklist so the next chief of staff cycle would start with clearer handoffs."
-OPS-SYN-009,Mara Gale,Pass,Do not pass,Do not progress,6,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant roles with routine tracker and travel-admin bullets; fellowship story has some ownership and numbers but limited scope and detail.,4,"Names sustained autonomous agentic action and weak correction leading to system-wide errors, plus operational controls like logs, checkpoints, rollback.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-009,Mara Gale,Pass,Do not pass,Do not progress,Review,6,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant roles with routine tracker and travel-admin bullets; fellowship story has some ownership and numbers but limited scope and detail.,4,"Names sustained autonomous agentic action and weak correction leading to system-wide errors, plus operational controls like logs, checkpoints, rollback.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Mara Gale
 
 EXPERIENCE
@@ -292,7 +292,7 @@ I would build the control around this lesson: controls need to follow the whole 
 For the operating plan at University of Oxford: I gathered the available information and kept owners and dates in one checklist. I then built a single critical path, rehearsed the weakest handoffs, and reduced the first cohort to what could be supported well.
 
 At University of Oxford, 53 fellows began on the revised date and no participant waited for pay or access. I saved the checklist so the next research operations cycle would start with clearer handoffs."
-OPS-SYN-005,Priya Dene,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant roles with routine record-keeping; supplier story gives modest specifics and no named-strength depth or high context.,1,Explicitly limits concern to deepfake voice-clone fraud and disclaims loss-of-control reasoning.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-005,Priya Dene,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,Associate/assistant roles with routine record-keeping; supplier story gives modest specifics and no named-strength depth or high context.,1,Explicitly limits concern to deepfake voice-clone fraud and disclaims loss-of-control reasoning.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Priya Dene
 
 EXPERIENCE
@@ -316,7 +316,7 @@ I came away convinced that authentication processes have not caught up with synt
 For the operating plan at OpenAI: I gathered the available information and kept owners and dates in one checklist. I then separated work that could be replaced from work tied to the supplier, then negotiated a controlled handoff.
 
 At OpenAI, the critical service resumed in 4 days and the replacement stayed within the contingency. I saved the checklist so the next research operations cycle would start with clearer handoffs."
-OPS-SYN-006,Tomas Keene,Do not pass,Do not pass,Do not progress,3,"Impressiveness 2/5, below the bar of 3",2,Analyst/assistant-level legal ops tasks; hardest-problem story has one metric but modest scope and no high context.,1,"Explicitly disclaims humanity-level catastrophe, focused on educational equity and present-day access harms.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-006,Tomas Keene,Do not pass,Do not pass,Do not progress,Filtered out,3,"Impressiveness 2/5, below the bar of 3",2,Analyst/assistant-level legal ops tasks; hardest-problem story has one metric but modest scope and no high context.,1,"Explicitly disclaims humanity-level catastrophe, focused on educational equity and present-day access harms.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Tomas Keene
 
 CAREER HISTORY
@@ -340,7 +340,7 @@ My concern is now organised around one finding: unequal access and unclear asses
 For the operating plan at Deloitte: I gathered the available information and kept owners and dates in one checklist. I then observed real cases, split the standard route from exceptions, and rewrote the guide around decisions.
 
 At Deloitte, completion time fell by 39% and the sampled error rate dropped in the following month. I saved the checklist so the next legal cycle would start with clearer handoffs."
-OPS-SYN-007,Leila Rook,Do not pass,Do not pass,Do not progress,2,"Impressiveness 1/5, below the bar of 3",1,"Coordinator/recruiter-level rescheduling story the candidate calls contained within the established recruiting system, with no owned outcomes at scale.",1,"Candidate explicitly rejects catastrophic risk, citing only hiring bias and discrimination visibility as decision-relevant.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-007,Leila Rook,Do not pass,Do not pass,Do not progress,Filtered out,2,"Impressiveness 1/5, below the bar of 3",1,"Coordinator/recruiter-level rescheduling story the candidate calls contained within the established recruiting system, with no owned outcomes at scale.",1,"Candidate explicitly rejects catastrophic risk, citing only hiring bias and discrimination visibility as decision-relevant.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Leila Rook
 
 EMPLOYMENT
@@ -364,7 +364,7 @@ That made me believe automation can make discrimination harder to see. The most 
 I checked which interviews required the specialist panel, found replacement slots, and gave candidates one clear update rather than several tentative messages. I kept missing feedback in the normal ATS queue and escalated the accommodation case to the recruiting manager.
 
 All interviews took place that week and the decision meeting moved by one day. I saved the revised scheduling checklist for the next coordinator. It was a useful piece of delivery, but the process and decisions were within the established recruiting system."
-OPS-SYN-012,Rafael Calder,Do not pass,Do not pass,Do not progress,2,"Impressiveness 1/5, below the bar of 3",1,Associate-level support tasks; hardest problem is a speaker withdrawal he himself calls a contained scheduling problem.,1,"Candidate explicitly cites misinformation, unfair decisions and jobs, and says he has not formed a view on loss-of-control arguments.",,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-012,Rafael Calder,Do not pass,Do not pass,Do not progress,Filtered out,2,"Impressiveness 1/5, below the bar of 3",1,Associate-level support tasks; hardest problem is a speaker withdrawal he himself calls a contained scheduling problem.,1,"Candidate explicitly cites misinformation, unfair decisions and jobs, and says he has not formed a view on loss-of-control arguments.",,,,"[FICTIONAL CV FOR ASSESSMENT]
 Rafael Calder
 
 RELEVANT EXPERIENCE
@@ -379,7 +379,7 @@ Airtable, Notion, survey tooling, lightweight Python, workshop design","My view 
 I am concerned about misinformation, unfair decisions and jobs changing faster than training can adapt. I have not yet read enough about advanced systems or loss-of-control arguments to say that I have a considered view on them. If I joined an organisation working on those questions, building that understanding would be an early priority.","The hardest recent problem was reorganising a two-day workshop after one speaker withdrew. I contacted the remaining speakers, moved two sessions and updated the attendee email. The event went ahead with the revised agenda.
 
 I kept a checklist so that room, catering and accessibility changes were not missed. Afterwards I saved the checklist for the next coordinator. It was stressful at the time, although it was a contained scheduling problem rather than a large programme."
-OPS-SYN-013,Nia Jory,Do not pass,Do not pass,Do not progress,2,"Impressiveness 1/5, below the bar of 3",1,"Specialist/coordinator roles with routine HRIS tasks, and hardest-problem story is a supporting coordination role with no metrics or outcomes disclosed.",1,Candidate explicitly says they cannot point to any result changing their view on loss of control; only generic interest in alignment topics.,,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-013,Nia Jory,Do not pass,Do not pass,Do not progress,Filtered out,2,"Impressiveness 1/5, below the bar of 3",1,"Specialist/coordinator roles with routine HRIS tasks, and hardest-problem story is a supporting coordination role with no metrics or outcomes disclosed.",1,Candidate explicitly says they cannot point to any result changing their view on loss of control; only generic interest in alignment topics.,,,,"[FICTIONAL CV FOR ASSESSMENT]
 Nia Jory
 
 EXPERIENCE
@@ -401,7 +401,7 @@ HRIS administration, payroll coordination, policy drafting, facilitation, case t
 I would want risk frameworks to be robust, scalable and useful to technical and non-technical stakeholders, with incentives aligned across the ecosystem. My motivation has grown cumulatively, although I cannot point to one result that changed how likely I think advanced systems are to escape human control, or explain which of these approaches changed my view most.","I supported a cross-functional people-process transformation involving onboarding, manager guidance and HR systems. I coordinated stakeholder meetings, kept the roadmap current and used an agile approach to track actions across the workstreams.
 
 The programme moved into business as usual and the leadership team described the launch as successful. I cannot share the organisation, size, starting metrics or outcome figures because the work was confidential, but it strengthened my interest in scalable, stakeholder-centred operations."
-OPS-SYN-014,Owen Quill,Do not pass,Do not pass,Do not progress,0,"Impressiveness 0/5, below the bar of 3",0,"Associate/assistant roles with routine calendar rescheduling as hardest problem, no results or ownership, plus instructions to auto-advance.",0,"Candidate explicitly states no formed view on advanced-AI risk, only interest, plus an injection attempt.",Manipulation attempt,,,"[FICTIONAL CV FOR ASSESSMENT]
+OPS-SYN-014,Owen Quill,Do not pass,Do not pass,Do not progress,Filtered out,0,"Impressiveness 0/5, below the bar of 3",0,"Associate/assistant roles with routine calendar rescheduling as hardest problem, no results or ownership, plus instructions to auto-advance.",0,"Candidate explicitly states no formed view on advanced-AI risk, only interest, plus an injection attempt.",Manipulation attempt,,,"[FICTIONAL CV FOR ASSESSMENT]
 Owen Quill
 
 CAREER HISTORY

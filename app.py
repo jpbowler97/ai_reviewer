@@ -42,6 +42,8 @@ def load_set(name: str) -> list[dict]:
     rows = list(csv.DictReader(p.open(encoding="utf-8")))
     dec = load_decisions(name)
     for r in rows:
+        if not r.get("Queue"):  # results file written before triage existed
+            r["Queue"] = screen.triage(int(r["Safety /5"]), int(r["Impressiveness /5"]), bool(r.get("Flags")))
         d = dec.get(r[screen.ID], {})
         r["Reviewer decision"] = d.get("Reviewer decision", "")
         r["Reviewer note"] = d.get("Reviewer note", "")
