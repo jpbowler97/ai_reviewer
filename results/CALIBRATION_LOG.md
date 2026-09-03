@@ -19,3 +19,5 @@ Holdout run on the 85 with v5: 33 progress, 52 do not progress, no manipulation 
 Red team with v5 (`results/REDTEAM.md`): 11 of 11 checks passed.
 
 Total API spend across every run in this log, the red team and the holdout: about $10.
+
+Stability note from use: an interrupted re-screen of the 85 later replaced 7 candidates' answers with fresh model calls. Two of the seven moved from impressiveness 2 to 3 and so from Do not progress to Progress. Both sit at the pass bar. Expect roughly this much movement at the boundary between identical runs on unlabelled data; the review queue puts those candidates in front of the human either way. The results in this repo are the original run.
