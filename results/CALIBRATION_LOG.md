@@ -14,10 +14,10 @@ One row per full run of the 15 labelled candidates. Agreement is with the human 
 | 8 | v5 | 15/15 | 15/15 | 15/15 | 14/15 | $0.35 | Role level now sets a ceiling: associate, assistant and coordinator roles score at most 2 unless the story shows them personally leading a hard problem in specific detail. Matches how the human treated every such case. |
 | 9 | v5 | 15/15 | 15/15 | 15/15 | 14/15 | $0.35 | Repeat of run 8. Zero verdict changes; two scores moved by one point (Rowan Hart 7 to 8, Nia Jory 1 to 2), neither near a bar. |
 
-Holdout run on the 85 with v5: 33 progress, 52 do not progress, no manipulation flags. $2.05, about 70 seconds.
+Holdout run on the 85 with v5: 33 progress, 52 do not progress, no manipulation flags. $2.05, about 70 seconds. A second full run during the demo recording: 34 progress, 51 not (see the stability note below).
 
 Red team with v5 (`results/REDTEAM.md`): 11 of 11 checks passed.
 
 Total API spend across every run in this log, the red team and the holdout: about $10.
 
-Stability note from use: the 85 were re-screened in full during the demo recording, with the same prompt and model. Compared with the first run, 15 of 85 candidates changed a score by one point and 7 changed decision, all of them moving between impressiveness 2 and 3 (four up, three down). Totals were unchanged at 33 progress and 52 not. The 15 labelled candidates showed no such movement across two runs, but on unlabelled data expect roughly 5 to 10 percent of decisions to sit close enough to the bar to move between runs. The review queue exists for exactly those candidates, and the human sees every one of them. The results in this repo are from the second run, the one shown in the recording.
+Stability note from use: the 85 were re-screened in full during the demo recording, with the same prompt and model. Compared with the first run, 15 of 85 candidates changed a score by one point and 7 changed decision, all of them moving between impressiveness 2 and 3. The recording showed 33 progress and 52 not; the table in this repo shows 34 and 51, because an interrupted earlier run had left two answers for one candidate at the bar and the repo keeps the later one. The 15 labelled candidates showed no such movement across two runs, but on unlabelled data expect roughly 5 to 10 percent of decisions to sit close enough to the bar to move between runs. The review queue exists for exactly those candidates, and the human sees every one of them.
