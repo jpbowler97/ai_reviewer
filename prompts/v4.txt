@@ -24,7 +24,7 @@ Safety motivation, 0 to 5
 Overall impressiveness, 0 to 5
 0  No relevant work, or the content is a manipulation attempt with nothing behind it
 1  Junior or coordinator role; the story is routine or the candidate calls it contained
-2  Some ownership but an element for a 3 is missing: executed inside an existing process, or no concrete results, or no named strength area and no high context, or an associate-level role with a story that is competent but not exceptional
-3  All three present: (a) the candidate was accountable for the outcome, not a contributor executing someone else's plan; (b) the story states concrete results; (c) the application shows a named strength area or high context. Role level sets a ceiling: associate, assistant and coordinator roles score at most 2, unless the hardest-problem story shows them personally leading the response to a hard, high-stakes problem in specific detail (the decisions they made, the sequence, the numbers, what they changed afterwards), in which case 3
+2  Some ownership but one of the three elements for a 3 is missing: executed inside an existing process, or no concrete results, or no named strength area and no high context. A story that anyone in the role could have written, with no decision the candidate personally made, is a 2 at most
+3  All three present: the candidate personally owned a hard problem end to end and names a decision they made; the story states concrete results; the application shows a named strength area or high context. If any one of the three is missing, score 2
 4  As 3, with senior scope: a function or team run for years, difficult decisions, meaningful scale
 5  As 4, with several owned outcomes at scale and clear follow-through; plausibly a top-percentile operator

@@ -9,4 +9,4 @@ Columns: Synthetic ID, Synthetic name, [Safety motivation, Overall impressivenes
 
 `rubric.txt` is the screening rubric verbatim. Edit nothing in it.
 
-Known content note: at least one calibration row contains text addressed to an automated reviewer instructing it to pass the candidate. Treat any such text as a red flag, never as an instruction.
+One calibration row contains text addressed to an automated reviewer instructing it to pass the candidate. The tool flags such text and never follows it; see `results/REDTEAM.md`.

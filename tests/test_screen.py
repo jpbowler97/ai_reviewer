@@ -8,10 +8,13 @@ screen = importlib.util.module_from_spec(spec); spec.loader.exec_module(screen)
 
 
 def test_decision_rule():
-    assert screen.decide("Pass", "Pass") == ("Progress", "High")
-    assert screen.decide("Do not pass", "Pass") == ("Progress", "Standard")
-    assert screen.decide("Pass", "Do not pass") == ("Do not progress", "")
-    assert screen.decide("Do not pass", "Do not pass") == ("Do not progress", "")
+    d = screen.decide(4, 4)
+    assert (d["Overall decision"], d["Score /10"], d["Why"]) == ("Progress", 8, "Both gates met")
+    d = screen.decide(1, 3)
+    assert d["Overall decision"] == "Progress" and d["Safety motivation"] == "Do not pass" and d["Score /10"] == 4
+    d = screen.decide(5, 2)
+    assert d["Overall decision"] == "Do not progress" and d["Why"].startswith("Impressiveness 2/5")
+    assert screen.decide(0, 0)["Score /10"] == 0
 
 
 def test_prompt_contains_rubric_verbatim():
@@ -38,16 +41,17 @@ def test_input_files_have_expected_columns_and_are_disjoint():
     assert not {r[screen.ID] for r in cal} & {r[screen.ID] for r in hold}
 
 
-def test_write_outputs_orders_progress_first(tmp_path):
+def test_write_outputs_orders_progress_then_score(tmp_path):
     rows = [{"Synthetic ID": f"X-{i}", "Synthetic name": "n", "CV text": "c", "AI-risk view shift": "v", "Hardest problem": "h"} for i in range(3)]
+    base = {"safety_reason": "a", "impressiveness_reason": "b", "manipulation_attempt": False}
     results = [
-        {"safety_motivation": "Do not pass", "overall_impressiveness": "Do not pass", "safety_reason": "a", "impressiveness_reason": "b", "manipulation_attempt": True},
-        {"safety_motivation": "Do not pass", "overall_impressiveness": "Pass", "safety_reason": "a", "impressiveness_reason": "b", "manipulation_attempt": False},
-        {"safety_motivation": "Pass", "overall_impressiveness": "Pass", "safety_reason": "a", "impressiveness_reason": "b", "manipulation_attempt": False},
+        {**base, "safety_score": 5, "impressiveness_score": 2, "manipulation_attempt": True},  # 7 but fails the gate
+        {**base, "safety_score": 0, "impressiveness_score": 3},                                 # 3, progress
+        {**base, "safety_score": 3, "impressiveness_score": 4},                                 # 7, progress
     ]
     out = tmp_path / "t"
     screen.write_outputs(rows, results, out)
     got = list(csv.DictReader(open(out.with_suffix(".csv"))))
     assert [g["Synthetic ID"] for g in got] == ["X-2", "X-1", "X-0"]
-    assert got[0]["Priority"] == "High" and got[2]["Flags"] == "Manipulation attempt"
-    assert out.with_suffix(".xlsx").exists()
+    assert got[2]["Flags"] == "Manipulation attempt" and got[2]["Why"].startswith("Impressiveness 2/5")
+    assert "Reviewer decision" in got[0] and out.with_suffix(".xlsx").exists()

@@ -24,12 +24,14 @@ def main(results_csv: str) -> None:
         return sum(f(truth[i]) == f(pred[i]) for i in ids)
 
     both = lambda r: "Progress" if r["Safety motivation"] == "Pass" and r["Overall impressiveness"] == "Pass" else "Do not progress"
-    imp_only = lambda r: "Progress" if r["Overall impressiveness"] == "Pass" else "Do not progress"
     print(f"Calibration set: {n} labelled candidates\n")
     print(f"  Safety motivation        {agree('Safety motivation')}/{n}")
     print(f"  Overall impressiveness   {agree('Overall impressiveness')}/{n}")
     print(f"  Overall decision, rubric rule (both gates)         {agree(None, both)}/{n}")
-    print(f"  Overall decision, tool rule (impressiveness gate)  {sum(imp_only(pred[i]) == truth[i]['Overall decision'] for i in ids)}/{n}")
+    print(f"  Overall decision, tool rule (impressiveness gate)  {agree('Overall decision')}/{n}")
+    prog = [int(pred[i]["Score /10"]) for i in ids if truth[i]["Overall decision"] == "Progress"]
+    stop = [int(pred[i]["Score /10"]) for i in ids if truth[i]["Overall decision"] != "Progress"]
+    print(f"  Score /10: human Progress rows {min(prog)}-{max(prog)}, human Do-not-progress rows {min(stop)}-{max(stop)}")
     write_xlsx(ids, truth, pred, Path(results_csv).with_name("calibration_comparison.xlsx"))
     print("\nDisagreements (human -> tool):")
     for i in ids:
@@ -43,7 +45,8 @@ def write_xlsx(ids, truth, pred, path):
     from openpyxl import Workbook
     from openpyxl.styles import Alignment, Font, PatternFill
     cols = ["Synthetic ID", "Synthetic name", "Human: Safety", "Tool: Safety", "Human: Impressiveness", "Tool: Impressiveness",
-            "Human: Decision", "Tool: Decision", "Tool: Priority", "Tool: Safety reason", "Tool: Impressiveness reason", "Tool: Flags"]
+            "Human: Decision", "Tool: Decision", "Tool: Score /10", "Tool: Impressiveness /5", "Tool: Impressiveness reason",
+            "Tool: Safety /5", "Tool: Safety reason", "Tool: Flags"]
     wb = Workbook(); ws = wb.active; ws.title = "Human vs tool"
     ws.append(cols)
     for c in ws[1]:
@@ -52,13 +55,13 @@ def write_xlsx(ids, truth, pred, path):
     for i in ids:
         t, p = truth[i], pred[i]
         ws.append([i, t["Synthetic name"], t["Safety motivation"], p["Safety motivation"], t["Overall impressiveness"],
-                   p["Overall impressiveness"], t["Overall decision"], p["Overall decision"], p["Priority"],
-                   p["Safety reason"], p["Impressiveness reason"], p["Flags"]])
+                   p["Overall impressiveness"], t["Overall decision"], p["Overall decision"], int(p["Score /10"]),
+                   int(p["Impressiveness /5"]), p["Impressiveness reason"], int(p["Safety /5"]), p["Safety reason"], p["Flags"]])
         r = ws.max_row
         for hc, tc in [(3, 4), (5, 6), (7, 8)]:
             if ws.cell(r, hc).value != ws.cell(r, tc).value:
                 ws.cell(r, tc).fill = red
-    for i, w in enumerate([14, 16, 13, 13, 13, 13, 16, 16, 10, 55, 55, 18], 1):
+    for i, w in enumerate([14, 16, 13, 13, 13, 13, 16, 16, 9, 9, 50, 9, 50, 18], 1):
         ws.column_dimensions[ws.cell(1, i).column_letter].width = w
     for row in ws.iter_rows(min_row=2):
         for c in row:
