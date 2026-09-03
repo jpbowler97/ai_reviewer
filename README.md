@@ -32,7 +32,7 @@ flowchart LR
         export ANTHROPIC_API_KEY=...
         uv run app.py
 
-4. Open http://localhost:8000 and drop in a CSV with columns `Synthetic ID, Synthetic name, CV text, AI-risk view shift, Hardest problem`. Screening shows a progress bar; 85 applications take about a minute.
+4. Open http://localhost:8000 and drop in a CSV or .xlsx with columns `Synthetic ID, Synthetic name, CV text, AI-risk view shift, Hardest problem`. Any common CSV encoding works; for a workbook the largest sheet with those columns is used. Screening shows a progress bar; 85 applications take about a minute.
 5. Work through the queue. Keys: `j` `k` move, `p` progress, `d` do not progress, `a` takes the model's recommendation. Export when done.
 
 Leave the terminal running while you review; if it stops, the page shows a red banner saying so.

@@ -14,7 +14,7 @@ from pathlib import Path
 
 import uvicorn
 from fastapi import FastAPI, File, Form, HTTPException, UploadFile
-from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
+from fastapi.responses import HTMLResponse, Response, StreamingResponse
 
 import screen
 
@@ -50,6 +50,33 @@ def load_set(name: str) -> list[dict]:
     return rows
 
 
+def read_applications(raw: bytes, filename: str) -> tuple[list[dict], str]:
+    """Accept a CSV in any common encoding, or an .xlsx (the largest sheet with the right columns). Returns rows and a UTF-8 CSV copy."""
+    if filename.lower().endswith((".xlsx", ".xlsm")) or raw[:2] == b"PK":
+        from openpyxl import load_workbook
+        need = {screen.ID, screen.NAME, *screen.FIELDS}
+        best: list[dict] = []
+        for ws in load_workbook(io.BytesIO(raw), read_only=True).worksheets:  # largest sheet with the right columns
+            data = [r for r in ws.iter_rows(values_only=True) if any(v not in (None, "") for v in r)]
+            if not data:
+                continue
+            header = [str(h).strip() if h is not None else "" for h in data[0]]
+            if need <= set(header) and len(data) - 1 > len(best):
+                best = [{h: ("" if v is None else str(v)) for h, v in zip(header, r)} for r in data[1:]]
+        rows = best
+    else:
+        for enc in ("utf-8-sig", "cp1252", "mac_roman", "latin-1"):
+            try:
+                text = raw.decode(enc); break
+            except UnicodeDecodeError:
+                continue
+        rows = list(csv.DictReader(io.StringIO(text)))
+    if not rows:
+        raise HTTPException(400, "No rows found in the file.")
+    buf = io.StringIO(); w = csv.DictWriter(buf, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
+    return rows, buf.getvalue()
+
+
 def screen_in_background(name: str, rows: list[dict], rerun: bool) -> None:
     job = JOBS[name]
     try:
@@ -69,7 +96,7 @@ def index():
 
 @app.get("/favicon.ico")
 def favicon():
-    return JSONResponse(None, status_code=204)
+    return Response(status_code=204)
 
 
 @app.get("/api/sets")
@@ -82,8 +109,8 @@ def sets():
 async def upload(file: UploadFile = File(...), rescreen: bool = Form(False)):
     if "ANTHROPIC_API_KEY" not in os.environ:
         raise HTTPException(400, "ANTHROPIC_API_KEY is not set in the shell that started the app.")
-    text = (await file.read()).decode("utf-8-sig")
-    rows = list(csv.DictReader(io.StringIO(text)))
+    raw = await file.read()
+    rows, text = read_applications(raw, file.filename)
     need = [screen.ID, screen.NAME, *screen.FIELDS]
     missing = [c for c in need if not rows or c not in rows[0]]
     if missing:
