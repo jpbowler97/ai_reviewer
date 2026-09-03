@@ -31,6 +31,8 @@ Reruns skip candidates already screened, so adding new rows to the CSV and runni
 
 ## Calibration
 
+How the pipeline was built and checked: `METHODOLOGY.md`.
+
 15 human-labelled applications, held out from prompt design and never used as examples. Log with every run in `results/CALIBRATION_LOG.md`; side-by-side sheet in `results/calibration_comparison.xlsx`.
 
 - Safety motivation: 15/15
@@ -40,6 +42,7 @@ Reruns skip candidates already screened, so adding new rows to the CSV and runni
 
 ## Files
 
+    METHODOLOGY.md     how we got here and how to reproduce the calibration
     screen.py          the pipeline (about 150 lines)
     prompt.txt         the instructions the model gets; read this to understand every judgement
     calibrate.py       compares a results file with the human labels
